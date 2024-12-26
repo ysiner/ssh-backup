@@ -44,6 +44,7 @@ jobs:
 
     - name: Set up KUBECONFIG from GitHub Secrets
       run: |
+        mkdir -p $HOME/.kube
         echo "${{ secrets.KUBECONFIG }}" | base64 --decode > $HOME/.kube/config
 
     - name: Deploy to Kubernetes
