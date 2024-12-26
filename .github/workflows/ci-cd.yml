@@ -37,14 +37,16 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Setup kubectl
+    - name: Set up kubectl
       uses: azure/setup-kubectl@v3
       with:
         version: 'latest'
 
+    - name: Set up KUBECONFIG from GitHub Secrets
+      run: |
+        echo "${{ secrets.KUBECONFIG }}" | base64 --decode > $HOME/.kube/config
+
     - name: Deploy to Kubernetes
-      env:
-        KUBECONFIG: ${{ secrets.KUBECONFIG }}
       run: |
         kubectl set image deployment/ssh-app ssh-app=ysiner/ssh-app:latest -n default
         kubectl rollout restart deployment/ssh-app -n default
