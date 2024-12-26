@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Code Execution | Network Backup</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .device-code-container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        label {
+            display: block;
+            margin-top: 10px;
+            color: #555;
+        }
+        
+        input[type="text"],
+        input[type="password"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box; /* Bu satır, kutucukların aynı genişlikte olmasını sağlar */
+        }
+        
+        textarea {
+            height: 100px; /* İsteğe bağlı olarak textarea yüksekliğini ayarlayabilirsiniz */
+        }
+        
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        h2 {
+            margin-top: 20px;
+            color: #333;
+        }
+        
+        pre {
+            background: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            max-height: 400px;
+            overflow-y: auto;
+            white-space: pre-wrap; /* Uzun metinleri sarmak için */
+            word-wrap: break-word; /* Kelime kesilmesini sağlamak için */
+        }
+        
+        .back-button {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .back-button button {
+            background-color: #007bff; /* Dış kısmı mavi */
+            color: white; /* Yazı rengi beyaz */
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        .back-button button:hover {
+            background-color: #0056b3; /* Hover'da daha koyu mavi */
+        }
+        
+        .back-button a {
+            text-decoration: none; /* Alt çizgiyi kaldır */
+        }
+    </style>
+</head>
+<body>
+    <div class="device-code-container">
+        <h1>Device Code Execution</h1>
+        <form id="deviceCodeForm" method="POST" action="{{ url_for('execute_device_code') }}">
+            <label for="ip">Device IP:</label>
+            <input type="text" id="ip" name="ip" placeholder="Enter IP address" required>
+        
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter SSH username" required>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter SSH password" required>
+        
+            <label for="enable_password">Enable Password:</label>
+            <input type="password" id="enable_password" name="enable_password" placeholder="Enter SSH enable password"> 
+        
+            <label for="commands">Commands:</label>
+            <textarea id="commands" name="commands" placeholder="Enter commands(for config mod use conf t)" required></textarea>
+        
+            <button type="submit">Execute Commands</button>
+        </form>
+
+        <div class="back-button">
+            <button onclick="window.location.href='{{ url_for('index') }}'">Back to Home</button>
+        </div>
+
+        <h2>Output:</h2>
+        <pre id="output"></pre> 
+    </div>
+
+    <script>
+        document.getElementById('deviceCodeForm').onsubmit = async function (e) {
+            e.preventDefault(); 
+            const formData = new FormData(this);
+            const response = await fetch(this.action, {
+                method: 'POST',
+                body: formData
+            });
+            const result = await response.json();
+            document.getElementById('output').innerText = result.output || 'No output returned.';
+        };
+    </script>
+</body>
+</html>

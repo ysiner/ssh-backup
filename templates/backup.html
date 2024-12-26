@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backup | Network Backup</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+</head>
+<body>
+    <div class="backup-container">
+        <header>
+            <h1>Backup Your Devices</h1>
+        </header>
+
+        <form id="backupForm" method="POST">
+            <div class="form-group">
+                <label for="connection_type">Connection Type:</label>
+                <select id="connection_type" name="connection_type" required>
+                    <option value="SSH">SSH</option>
+                    <option value="Console">Console</option>
+                </select>
+            </div>
+
+            <div class="form-group" id="ssh-fields">
+                <label for="ip_input">IP Address:</label>
+                <input type="text" id="ip_input" name="ip_input" placeholder="Enter IP address" required>
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter SSH username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter SSH password" required>
+
+                <label for="enable_password">Enable Password:</label>
+                <input type="password" id="enable_password" name="enable_password" placeholder="Enter enable password (Optional)">
+            </div>
+
+            <div class="form-group" id="console-fields" style="display: none;">
+                <label for="com_port">COM Port:</label>
+                <input type="text" id="com_port" name="com_port" placeholder="Enter COM port" required>
+
+                <label for="baudrate">Baud Rate:</label>
+                <input type="text" id="baudrate" name="baudrate" placeholder="Enter baud rate" required>
+
+                <label for="username_console">Username:</label>
+                <input type="text" id="username_console" name="username_console" placeholder="Enter console username (Optional)">
+
+                <label for="password_console">Password:</label>
+                <input type="password" id="password_console" name="password_console" placeholder="Enter console password (Optional)">
+            </div>
+
+            <button type="submit" class="button">Start Backup</button>
+        </form>
+
+        <div class="download-link" style="display: none;">
+            <a href="#" class="button" id="downloadLink">Download Backup</a>
+        </div>
+
+        <div class="back-button">
+            <a href="{{ url_for('index') }}" class="button">Back to Home</a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const connectionTypeSelect = document.getElementById("connection_type");
+            const sshFields = document.getElementById("ssh-fields");
+            const consoleFields = document.getElementById("console-fields");
+    
+            function toggleFields() {
+                if (connectionTypeSelect.value === "SSH") {
+                    sshFields.style.display = "block";
+                    consoleFields.style.display = "none";
+                    setRequired(["ip_input", "username", "password"], true);
+                    setRequired(["com_port", "baudrate", "username_console", "password_console"], false); 
+                } else {
+                    sshFields.style.display = "none";
+                    consoleFields.style.display = "block";
+                    setRequired(["com_port", "baudrate"], true); 
+                    setRequired(["ip_input", "username", "password"], false); 
+                }
+            }
+    
+            function setRequired(fieldIds, isRequired) {
+                fieldIds.forEach(id => {
+                    const field = document.getElementById(id);
+                    if (isRequired) {
+                        field.setAttribute("required", "required");
+                    } else {
+                        field.removeAttribute("required");
+                    }
+                });
+            }
+
+            connectionTypeSelect.addEventListener("change", toggleFields);
+            toggleFields();  
+    
+            document.getElementById("backupForm").addEventListener("submit", function(event) {
+                if (!this.checkValidity()) {
+                    event.preventDefault(); 
+                    return; 
+                }
+    
+                event.preventDefault(); 
+                toastr.clear();  
+    
+                // Show loading notification
+                toastr.info("Yedekleme süreci başlatıldı...", "Lütfen Bekleyin", {
+                    "timeOut": "3000",
+                    "progressBar": true,
+                    "closeButton": true
+                });
+    
+                // Send form data via AJAX
+                const formData = new FormData(this);
+                fetch("{{ url_for('perform_backup') }}", {
+                    method: "POST",
+                    body: formData,
+                })
+                .then(response => response.json())
+                .then(data => {
+                    toastr.clear();
+                    if (data.success) {
+                        toastr.success("Yedekleme başarıyla tamamlandı!", "Başarılı", {
+                            "timeOut": "5000",
+                            "progressBar": true,
+                            "closeButton": true
+                        });
+                        const downloadLinkDiv = document.querySelector('.download-link');
+                        const downloadLink = document.getElementById('downloadLink');
+                        downloadLink.href = data.download_link;
+                        downloadLinkDiv.style.display = "block"; 
+                    } else {
+                        toastr.error(data.error || "Yedekleme başarısız oldu.", "Hata", {
+                            "timeOut": "5000",
+                            "progressBar": true,
+                            "closeButton": true
+                        });
+                    }
+                })
+                .catch(error => {
+                    toastr.clear();
+                    toastr.error("Yedekleme sırasında bir hata oluştu: " + error.message, "Hata", {
+                        "timeOut": "5000",
+                        "progressBar": true,
+                        "closeButton": true
+                    });
+                    console.error("Backup error:", error);
+                });
+            });
+        });
+    </script>    
+</body>
+</html>

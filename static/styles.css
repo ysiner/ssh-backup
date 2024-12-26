@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1a73e8, #4285f4);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.welcome-container {
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #1a73e8;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+section p {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.start-button .button {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(135deg, #1a73e8, #4285f4);
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.start-button .button:hover {
+  background: linear-gradient(135deg, #4285f4, #1a73e8);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#flash-messages {
+  margin-bottom: 20px;
+}
+
+.alert {
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+.alert.success {
+  background-color: #4caf50; /* Green */
+}
+
+.alert.warning {
+  background-color: #ff9800; /* Orange */
+}
+
+.alert.danger {
+  background-color: #f44336; /* Red */
+}
+
+
+.backup-container {
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+  margin: auto;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(135deg, #1a73e8, #4285f4);
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #4285f4, #1a73e8);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+  cursor: pointer; 
+}
+
+.download-link {
+  margin-top: 20px;
+}
+

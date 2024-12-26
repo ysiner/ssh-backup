@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ssh-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ssh-app
+  template:
+    metadata:
+      labels:
+        app: ssh-app
+    spec:
+      containers:
+      - name: ssh-app
+        image: ysiner/ssh-app-v2:1
+        ports:
+        - containerPort: 5000
+        volumeMounts:  
+        - mountPath: /app/backup  
+          name: backup-volume
+      volumes:  
+      - name: backup-volume
+        persistentVolumeClaim:
+          claimName: backup-pvc  

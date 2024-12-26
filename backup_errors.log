@@ -1,0 +1,731 @@
+2024-11-05 10:59:08,080:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.70.183:5000
+2024-11-05 10:59:08,080:INFO:[33mPress CTRL+C to quit[0m
+2024-11-05 10:59:08,082:INFO: * Restarting with stat
+2024-11-05 10:59:08,540:WARNING: * Debugger is active!
+2024-11-05 10:59:08,542:INFO: * Debugger PIN: 153-269-863
+2024-11-05 10:59:12,110:INFO:192.168.70.183 - - [05/Nov/2024 10:59:12] "GET / HTTP/1.1" 200 -
+2024-11-05 10:59:12,204:INFO:192.168.70.183 - - [05/Nov/2024 10:59:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 10:59:12,234:INFO:192.168.70.183 - - [05/Nov/2024 10:59:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-08 09:58:08,480:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.70.183:5000
+2024-11-08 09:58:08,481:INFO:[33mPress CTRL+C to quit[0m
+2024-11-08 09:58:08,483:INFO: * Restarting with stat
+2024-11-08 09:58:08,979:WARNING: * Debugger is active!
+2024-11-08 09:58:08,994:INFO: * Debugger PIN: 153-269-863
+2024-11-08 09:58:14,937:INFO:127.0.0.1 - - [08/Nov/2024 09:58:14] "GET / HTTP/1.1" 200 -
+2024-11-08 09:58:15,039:INFO:127.0.0.1 - - [08/Nov/2024 09:58:15] "GET /static/styles.css HTTP/1.1" 200 -
+2024-11-08 09:58:15,067:INFO:127.0.0.1 - - [08/Nov/2024 09:58:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-08 09:58:17,932:INFO:127.0.0.1 - - [08/Nov/2024 09:58:17] "GET /backup_page HTTP/1.1" 200 -
+2024-11-08 09:58:17,957:INFO:127.0.0.1 - - [08/Nov/2024 09:58:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 10:51:27,857:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 10:51:27,945:INFO: * Restarting with stat
+2024-11-08 10:51:28,438:WARNING: * Debugger is active!
+2024-11-08 10:51:28,440:INFO: * Debugger PIN: 153-269-863
+2024-11-08 10:53:58,136:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 10:53:58,183:INFO: * Restarting with stat
+2024-11-08 10:53:58,996:WARNING: * Debugger is active!
+2024-11-08 10:53:58,998:INFO: * Debugger PIN: 153-269-863
+2024-11-08 10:54:19,094:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 10:54:19,166:INFO: * Restarting with stat
+2024-11-08 10:54:19,632:WARNING: * Debugger is active!
+2024-11-08 10:54:19,634:INFO: * Debugger PIN: 153-269-863
+2024-11-08 10:54:41,732:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\celery_worker.py', reloading
+2024-11-08 10:54:41,788:INFO: * Restarting with stat
+2024-11-08 10:54:42,283:WARNING: * Debugger is active!
+2024-11-08 10:54:42,285:INFO: * Debugger PIN: 153-269-863
+2024-11-08 10:54:54,344:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 10:54:54,386:INFO: * Restarting with stat
+2024-11-08 10:54:55,007:WARNING: * Debugger is active!
+2024-11-08 10:54:55,009:INFO: * Debugger PIN: 153-269-863
+2024-11-08 10:55:02,041:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 10:55:02,109:INFO: * Restarting with stat
+2024-11-08 10:55:02,741:WARNING: * Debugger is active!
+2024-11-08 10:55:02,743:INFO: * Debugger PIN: 153-269-863
+2024-11-08 10:56:41,288:INFO:127.0.0.1 - - [08/Nov/2024 10:56:41] "GET / HTTP/1.1" 200 -
+2024-11-08 10:56:41,348:INFO:127.0.0.1 - - [08/Nov/2024 10:56:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 10:56:41,946:INFO:127.0.0.1 - - [08/Nov/2024 10:56:41] "GET / HTTP/1.1" 200 -
+2024-11-08 10:56:41,971:INFO:127.0.0.1 - - [08/Nov/2024 10:56:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 10:56:43,103:INFO:127.0.0.1 - - [08/Nov/2024 10:56:43] "GET /backup_page HTTP/1.1" 200 -
+2024-11-08 10:56:43,130:INFO:127.0.0.1 - - [08/Nov/2024 10:56:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 10:56:44,446:INFO:127.0.0.1 - - [08/Nov/2024 10:56:44] "GET /backup_page HTTP/1.1" 200 -
+2024-11-08 10:56:44,470:INFO:127.0.0.1 - - [08/Nov/2024 10:56:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 10:56:45,309:INFO:127.0.0.1 - - [08/Nov/2024 10:56:45] "GET / HTTP/1.1" 200 -
+2024-11-08 10:56:45,337:INFO:127.0.0.1 - - [08/Nov/2024 10:56:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 10:56:46,282:INFO:127.0.0.1 - - [08/Nov/2024 10:56:46] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 10:56:46,303:INFO:127.0.0.1 - - [08/Nov/2024 10:56:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 10:56:47,521:INFO:127.0.0.1 - - [08/Nov/2024 10:56:47] "GET / HTTP/1.1" 200 -
+2024-11-08 10:56:47,549:INFO:127.0.0.1 - - [08/Nov/2024 10:56:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 10:56:48,311:INFO:127.0.0.1 - - [08/Nov/2024 10:56:48] "GET /backup_page HTTP/1.1" 200 -
+2024-11-08 10:56:48,336:INFO:127.0.0.1 - - [08/Nov/2024 10:56:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 10:56:59,656:INFO:127.0.0.1 - - [08/Nov/2024 10:56:59] "POST /backup HTTP/1.1" 200 -
+2024-11-08 10:57:03,505:INFO:127.0.0.1 - - [08/Nov/2024 10:57:03] "GET /download/20241108_105656.zip HTTP/1.1" 200 -
+2024-11-08 10:57:12,209:INFO:127.0.0.1 - - [08/Nov/2024 10:57:12] "GET /backup_page HTTP/1.1" 200 -
+2024-11-08 10:57:12,239:INFO:127.0.0.1 - - [08/Nov/2024 10:57:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 10:57:13,603:INFO:127.0.0.1 - - [08/Nov/2024 10:57:13] "GET / HTTP/1.1" 200 -
+2024-11-08 10:57:13,627:INFO:127.0.0.1 - - [08/Nov/2024 10:57:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:38:27,783:INFO:127.0.0.1 - - [08/Nov/2024 13:38:27] "GET / HTTP/1.1" 200 -
+2024-11-08 13:38:27,829:INFO:127.0.0.1 - - [08/Nov/2024 13:38:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:42:13,591:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 13:42:13,713:INFO: * Restarting with stat
+2024-11-08 13:42:14,772:WARNING: * Debugger is active!
+2024-11-08 13:42:14,774:INFO: * Debugger PIN: 153-269-863
+2024-11-08 13:42:41,827:INFO:127.0.0.1 - - [08/Nov/2024 13:42:41] "GET / HTTP/1.1" 200 -
+2024-11-08 13:42:41,880:INFO:127.0.0.1 - - [08/Nov/2024 13:42:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:42:42,412:INFO:127.0.0.1 - - [08/Nov/2024 13:42:42] "GET / HTTP/1.1" 200 -
+2024-11-08 13:42:42,437:INFO:127.0.0.1 - - [08/Nov/2024 13:42:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:42:43,855:INFO:127.0.0.1 - - [08/Nov/2024 13:42:43] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 13:42:43,880:INFO:127.0.0.1 - - [08/Nov/2024 13:42:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:43:08,929:INFO:127.0.0.1 - - [08/Nov/2024 13:43:08] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 13:43:33,912:INFO:127.0.0.1 - - [08/Nov/2024 13:43:33] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 13:43:50,535:INFO:127.0.0.1 - - [08/Nov/2024 13:43:50] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 13:43:50,564:INFO:127.0.0.1 - - [08/Nov/2024 13:43:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:43:51,050:INFO:127.0.0.1 - - [08/Nov/2024 13:43:51] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 13:43:51,075:INFO:127.0.0.1 - - [08/Nov/2024 13:43:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:43:51,758:INFO:127.0.0.1 - - [08/Nov/2024 13:43:51] "GET / HTTP/1.1" 200 -
+2024-11-08 13:43:51,787:INFO:127.0.0.1 - - [08/Nov/2024 13:43:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:43:52,740:INFO:127.0.0.1 - - [08/Nov/2024 13:43:52] "GET /backup_page HTTP/1.1" 200 -
+2024-11-08 13:43:52,770:INFO:127.0.0.1 - - [08/Nov/2024 13:43:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:43:54,786:ERROR:Configure terminal hatas\u0131: Either ip or host must be set
+2024-11-08 13:43:54,787:INFO:127.0.0.1 - - [08/Nov/2024 13:43:54] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 13:44:43,455:INFO:127.0.0.1 - - [08/Nov/2024 13:44:43] "GET / HTTP/1.1" 200 -
+2024-11-08 13:44:43,488:INFO:127.0.0.1 - - [08/Nov/2024 13:44:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:44:44,859:INFO:127.0.0.1 - - [08/Nov/2024 13:44:44] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 13:44:44,888:INFO:127.0.0.1 - - [08/Nov/2024 13:44:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:48:48,487:INFO:127.0.0.1 - - [08/Nov/2024 13:48:48] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 13:48:48,521:INFO:127.0.0.1 - - [08/Nov/2024 13:48:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:48:50,242:INFO:127.0.0.1 - - [08/Nov/2024 13:48:50] "GET / HTTP/1.1" 200 -
+2024-11-08 13:48:50,272:INFO:127.0.0.1 - - [08/Nov/2024 13:48:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:48:50,846:INFO:127.0.0.1 - - [08/Nov/2024 13:48:50] "GET /backup_page HTTP/1.1" 200 -
+2024-11-08 13:48:50,874:INFO:127.0.0.1 - - [08/Nov/2024 13:48:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:48:52,301:INFO:127.0.0.1 - - [08/Nov/2024 13:48:52] "GET / HTTP/1.1" 200 -
+2024-11-08 13:48:52,329:INFO:127.0.0.1 - - [08/Nov/2024 13:48:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:48:52,975:INFO:127.0.0.1 - - [08/Nov/2024 13:48:52] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 13:48:53,001:INFO:127.0.0.1 - - [08/Nov/2024 13:48:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:48:54,191:ERROR:Configure terminal hatas\u0131: Either ip or host must be set
+2024-11-08 13:48:54,192:INFO:127.0.0.1 - - [08/Nov/2024 13:48:54] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 13:49:10,168:INFO:127.0.0.1 - - [08/Nov/2024 13:49:10] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 13:49:10,203:INFO:127.0.0.1 - - [08/Nov/2024 13:49:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:49:15,889:ERROR:Configure terminal hatas\u0131: 
+Pattern not detected: 'Ersan\\-SW\\#' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2024-11-08 13:49:15,890:INFO:127.0.0.1 - - [08/Nov/2024 13:49:15] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 13:49:26,265:INFO:127.0.0.1 - - [08/Nov/2024 13:49:26] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 13:49:28,291:ERROR:Configure terminal hatas\u0131: 
+Pattern not detected: 'Ersan\\-SW\\#' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2024-11-08 13:49:28,292:INFO:127.0.0.1 - - [08/Nov/2024 13:49:28] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 13:49:38,598:ERROR:Configure terminal hatas\u0131: 
+Pattern not detected: 'Ersan\\-SW\\#' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2024-11-08 13:49:38,599:INFO:127.0.0.1 - - [08/Nov/2024 13:49:38] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 13:49:57,533:INFO:127.0.0.1 - - [08/Nov/2024 13:49:57] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 13:50:10,960:ERROR:Configure terminal hatas\u0131: 
+Pattern not detected: 'Ersan\\-SW\\#' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2024-11-08 13:50:10,960:INFO:127.0.0.1 - - [08/Nov/2024 13:50:10] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 13:50:20,149:INFO:127.0.0.1 - - [08/Nov/2024 13:50:20] "GET / HTTP/1.1" 200 -
+2024-11-08 13:50:20,175:INFO:127.0.0.1 - - [08/Nov/2024 13:50:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:50:21,395:INFO:127.0.0.1 - - [08/Nov/2024 13:50:21] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 13:50:21,425:INFO:127.0.0.1 - - [08/Nov/2024 13:50:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:50:37,882:ERROR:Configure terminal hatas\u0131: 
+Pattern not detected: 'Ersan\\-SW\\#' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2024-11-08 13:50:37,882:INFO:127.0.0.1 - - [08/Nov/2024 13:50:37] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 13:50:46,495:ERROR:Configure terminal hatas\u0131: 
+Pattern not detected: 'Ersan\\-SW\\#' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2024-11-08 13:50:46,495:INFO:127.0.0.1 - - [08/Nov/2024 13:50:46] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 13:55:46,585:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 13:55:46,668:INFO: * Restarting with stat
+2024-11-08 13:55:47,440:WARNING: * Debugger is active!
+2024-11-08 13:55:47,443:INFO: * Debugger PIN: 153-269-863
+2024-11-08 13:55:48,771:INFO:127.0.0.1 - - [08/Nov/2024 13:55:48] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 13:55:48,844:INFO:127.0.0.1 - - [08/Nov/2024 13:55:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:55:50,062:INFO:127.0.0.1 - - [08/Nov/2024 13:55:50] "GET / HTTP/1.1" 200 -
+2024-11-08 13:55:50,083:INFO:127.0.0.1 - - [08/Nov/2024 13:55:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:55:50,779:INFO:127.0.0.1 - - [08/Nov/2024 13:55:50] "GET /backup_page HTTP/1.1" 200 -
+2024-11-08 13:55:50,811:INFO:127.0.0.1 - - [08/Nov/2024 13:55:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:55:51,654:INFO:127.0.0.1 - - [08/Nov/2024 13:55:51] "GET / HTTP/1.1" 200 -
+2024-11-08 13:55:51,683:INFO:127.0.0.1 - - [08/Nov/2024 13:55:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:55:52,248:INFO:127.0.0.1 - - [08/Nov/2024 13:55:52] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 13:55:52,284:INFO:127.0.0.1 - - [08/Nov/2024 13:55:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 13:56:12,973:INFO:127.0.0.1 - - [08/Nov/2024 13:56:12] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 13:56:16,417:INFO:127.0.0.1 - - [08/Nov/2024 13:56:16] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 13:56:20,903:INFO:127.0.0.1 - - [08/Nov/2024 13:56:20] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 13:56:26,150:INFO:127.0.0.1 - - [08/Nov/2024 13:56:26] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 13:56:29,996:INFO:127.0.0.1 - - [08/Nov/2024 13:56:29] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 13:56:48,252:INFO:127.0.0.1 - - [08/Nov/2024 13:56:48] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 13:56:52,069:INFO:127.0.0.1 - - [08/Nov/2024 13:56:52] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 13:56:55,035:INFO:127.0.0.1 - - [08/Nov/2024 13:56:55] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 13:56:58,172:INFO:127.0.0.1 - - [08/Nov/2024 13:56:58] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 13:58:35,309:INFO:127.0.0.1 - - [08/Nov/2024 13:58:35] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 13:58:40,101:INFO:127.0.0.1 - - [08/Nov/2024 13:58:40] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:02:03,408:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 14:02:03,469:INFO: * Restarting with stat
+2024-11-08 14:02:04,267:WARNING: * Debugger is active!
+2024-11-08 14:02:04,269:INFO: * Debugger PIN: 153-269-863
+2024-11-08 14:02:04,765:INFO:127.0.0.1 - - [08/Nov/2024 14:02:04] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 14:02:04,828:INFO:127.0.0.1 - - [08/Nov/2024 14:02:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:02:15,281:INFO:127.0.0.1 - - [08/Nov/2024 14:02:15] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 14:02:24,249:INFO:127.0.0.1 - - [08/Nov/2024 14:02:24] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:02:26,306:INFO:127.0.0.1 - - [08/Nov/2024 14:02:26] "POST /configure_terminal HTTP/1.1" 200 -
+2024-11-08 14:03:04,820:INFO:127.0.0.1 - - [08/Nov/2024 14:03:04] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:04:48,109:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 14:04:48,171:INFO: * Restarting with stat
+2024-11-08 14:04:48,641:WARNING: * Debugger is active!
+2024-11-08 14:04:48,643:INFO: * Debugger PIN: 153-269-863
+2024-11-08 14:11:36,439:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 14:11:36,497:INFO: * Restarting with stat
+2024-11-08 14:11:36,975:WARNING: * Debugger is active!
+2024-11-08 14:11:36,978:INFO: * Debugger PIN: 153-269-863
+2024-11-08 14:11:40,270:INFO:127.0.0.1 - - [08/Nov/2024 14:11:40] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 14:11:40,332:INFO:127.0.0.1 - - [08/Nov/2024 14:11:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:11:41,988:INFO:127.0.0.1 - - [08/Nov/2024 14:11:41] "GET / HTTP/1.1" 200 -
+2024-11-08 14:11:42,012:INFO:127.0.0.1 - - [08/Nov/2024 14:11:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:11:42,833:INFO:127.0.0.1 - - [08/Nov/2024 14:11:42] "GET /backup_page HTTP/1.1" 200 -
+2024-11-08 14:11:42,858:INFO:127.0.0.1 - - [08/Nov/2024 14:11:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:11:43,521:INFO:127.0.0.1 - - [08/Nov/2024 14:11:43] "GET / HTTP/1.1" 200 -
+2024-11-08 14:11:43,553:INFO:127.0.0.1 - - [08/Nov/2024 14:11:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:11:44,022:INFO:127.0.0.1 - - [08/Nov/2024 14:11:44] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 14:11:44,058:INFO:127.0.0.1 - - [08/Nov/2024 14:11:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:12:03,445:INFO:127.0.0.1 - - [08/Nov/2024 14:12:03] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:12:11,286:INFO:127.0.0.1 - - [08/Nov/2024 14:12:11] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:12:21,059:INFO:127.0.0.1 - - [08/Nov/2024 14:12:21] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:12:22,435:INFO:127.0.0.1 - - [08/Nov/2024 14:12:22] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 14:12:22,466:INFO:127.0.0.1 - - [08/Nov/2024 14:12:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:12:28,645:INFO:127.0.0.1 - - [08/Nov/2024 14:12:28] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:12:43,186:INFO:127.0.0.1 - - [08/Nov/2024 14:12:43] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:12:53,432:INFO:127.0.0.1 - - [08/Nov/2024 14:12:53] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:14:14,734:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 14:14:14,806:INFO: * Restarting with stat
+2024-11-08 14:14:15,295:WARNING: * Debugger is active!
+2024-11-08 14:14:15,297:INFO: * Debugger PIN: 153-269-863
+2024-11-08 14:14:16,107:INFO:127.0.0.1 - - [08/Nov/2024 14:14:16] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 14:14:16,163:INFO:127.0.0.1 - - [08/Nov/2024 14:14:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:14:23,918:INFO:127.0.0.1 - - [08/Nov/2024 14:14:23] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:14:33,093:INFO:127.0.0.1 - - [08/Nov/2024 14:14:33] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:14:37,610:INFO:127.0.0.1 - - [08/Nov/2024 14:14:37] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:14:42,033:INFO:127.0.0.1 - - [08/Nov/2024 14:14:42] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:14:42,514:INFO:127.0.0.1 - - [08/Nov/2024 14:14:42] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:15:00,363:INFO:127.0.0.1 - - [08/Nov/2024 14:15:00] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:15:06,246:INFO:127.0.0.1 - - [08/Nov/2024 14:15:06] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:15:25,780:INFO:127.0.0.1 - - [08/Nov/2024 14:15:25] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:15:29,158:INFO:127.0.0.1 - - [08/Nov/2024 14:15:29] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:15:39,103:INFO:127.0.0.1 - - [08/Nov/2024 14:15:39] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:15:45,525:INFO:127.0.0.1 - - [08/Nov/2024 14:15:45] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:16:00,950:INFO:127.0.0.1 - - [08/Nov/2024 14:16:00] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:19:22,817:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 14:19:22,896:INFO: * Restarting with stat
+2024-11-08 14:19:23,430:WARNING: * Debugger is active!
+2024-11-08 14:19:23,432:INFO: * Debugger PIN: 153-269-863
+2024-11-08 14:19:24,055:INFO:127.0.0.1 - - [08/Nov/2024 14:19:24] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 14:19:24,122:INFO:127.0.0.1 - - [08/Nov/2024 14:19:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:19:32,430:INFO:127.0.0.1 - - [08/Nov/2024 14:19:32] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:19:36,523:INFO:127.0.0.1 - - [08/Nov/2024 14:19:36] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:19:45,042:INFO:127.0.0.1 - - [08/Nov/2024 14:19:45] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:20:02,418:INFO:127.0.0.1 - - [08/Nov/2024 14:20:02] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:22:20,797:INFO:127.0.0.1 - - [08/Nov/2024 14:22:20] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 14:22:20,826:INFO:127.0.0.1 - - [08/Nov/2024 14:22:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:27:53,913:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 14:27:54,000:INFO: * Restarting with stat
+2024-11-08 14:27:54,494:WARNING: * Debugger is active!
+2024-11-08 14:27:54,497:INFO: * Debugger PIN: 153-269-863
+2024-11-08 14:27:55,935:INFO:127.0.0.1 - - [08/Nov/2024 14:27:55] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 14:27:55,989:INFO:127.0.0.1 - - [08/Nov/2024 14:27:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:28:04,338:INFO:127.0.0.1 - - [08/Nov/2024 14:28:04] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:28:19,595:INFO:127.0.0.1 - - [08/Nov/2024 14:28:19] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:28:21,615:INFO:127.0.0.1 - - [08/Nov/2024 14:28:21] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:28:25,242:INFO:127.0.0.1 - - [08/Nov/2024 14:28:25] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:34:57,662:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 14:34:57,711:INFO: * Restarting with stat
+2024-11-08 14:34:58,145:WARNING: * Debugger is active!
+2024-11-08 14:34:58,147:INFO: * Debugger PIN: 153-269-863
+2024-11-08 14:39:52,513:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 14:39:52,603:INFO: * Restarting with stat
+2024-11-08 14:39:53,093:WARNING: * Debugger is active!
+2024-11-08 14:39:53,095:INFO: * Debugger PIN: 153-269-863
+2024-11-08 14:40:22,205:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 14:40:22,247:INFO: * Restarting with stat
+2024-11-08 14:40:22,699:WARNING: * Debugger is active!
+2024-11-08 14:40:22,703:INFO: * Debugger PIN: 153-269-863
+2024-11-08 14:40:37,336:INFO:127.0.0.1 - - [08/Nov/2024 14:40:37] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 14:40:37,394:INFO:127.0.0.1 - - [08/Nov/2024 14:40:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:40:47,404:INFO:127.0.0.1 - - [08/Nov/2024 14:40:47] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:41:01,889:ERROR:Unexpected error - IP: 192.168.71.61, Error: 
+Pattern not detected: 'Ersan\\-SW\\#' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2024-11-08 14:41:01,891:INFO:127.0.0.1 - - [08/Nov/2024 14:41:01] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:41:02,483:INFO:127.0.0.1 - - [08/Nov/2024 14:41:02] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:41:07,904:INFO:127.0.0.1 - - [08/Nov/2024 14:41:07] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 14:53:06,337:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 14:53:06,387:INFO: * Restarting with stat
+2024-11-08 14:53:07,666:WARNING: * Debugger is active!
+2024-11-08 14:53:07,668:INFO: * Debugger PIN: 153-269-863
+2024-11-08 14:53:15,709:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 14:53:15,782:INFO: * Restarting with stat
+2024-11-08 14:53:16,390:WARNING: * Debugger is active!
+2024-11-08 14:53:16,392:INFO: * Debugger PIN: 153-269-863
+2024-11-08 14:54:01,628:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 14:54:01,692:INFO: * Restarting with stat
+2024-11-08 14:54:02,266:WARNING: * Debugger is active!
+2024-11-08 14:54:02,268:INFO: * Debugger PIN: 153-269-863
+2024-11-08 14:54:03,636:INFO:127.0.0.1 - - [08/Nov/2024 14:54:03] "[35m[1mGET /device_code HTTP/1.1[0m" 500 -
+2024-11-08 14:54:03,716:INFO:127.0.0.1 - - [08/Nov/2024 14:54:03] "GET /device_code?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-08 14:54:03,730:INFO:127.0.0.1 - - [08/Nov/2024 14:54:03] "GET /device_code?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-08 14:54:03,780:INFO:127.0.0.1 - - [08/Nov/2024 14:54:03] "GET /device_code?__debugger__=yes&cmd=resource&f=console.png&s=p7ZucyRpoArHPqJaSvln HTTP/1.1" 200 -
+2024-11-08 14:54:03,792:INFO:127.0.0.1 - - [08/Nov/2024 14:54:03] "GET /device_code?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-08 14:55:29,164:INFO:127.0.0.1 - - [08/Nov/2024 14:55:29] "GET / HTTP/1.1" 200 -
+2024-11-08 14:55:29,202:INFO:127.0.0.1 - - [08/Nov/2024 14:55:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:55:30,243:INFO:127.0.0.1 - - [08/Nov/2024 14:55:30] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 14:55:30,269:INFO:127.0.0.1 - - [08/Nov/2024 14:55:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 14:55:30,337:INFO:127.0.0.1 - - [08/Nov/2024 14:55:30] "GET /socket.io/?EIO=4&transport=polling&t=PCBeIIR HTTP/1.1" 200 -
+2024-11-08 14:55:30,353:INFO:127.0.0.1 - - [08/Nov/2024 14:55:30] "POST /socket.io/?EIO=4&transport=polling&t=PCBeIIf&sid=wSFfXuaMDy_kfTIlAAAA HTTP/1.1" 200 -
+2024-11-08 14:55:30,354:INFO:127.0.0.1 - - [08/Nov/2024 14:55:30] "GET /socket.io/?EIO=4&transport=polling&t=PCBeIIg&sid=wSFfXuaMDy_kfTIlAAAA HTTP/1.1" 200 -
+2024-11-08 14:55:30,362:INFO:127.0.0.1 - - [08/Nov/2024 14:55:30] "GET /socket.io/?EIO=4&transport=polling&t=PCBeIIr&sid=wSFfXuaMDy_kfTIlAAAA HTTP/1.1" 200 -
+2024-11-08 14:56:14,219:ERROR:Command execution error: 
+Pattern not detected: 'Ersan\\-SW\\#' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2024-11-08 14:56:28,658:ERROR:Command execution error: 
+
+Pattern not detected: 'int\\ gi2/0/4' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2024-11-08 14:56:28,698:ERROR:Command execution error: 
+
+Pattern not detected: 'sh\\ ip\\ int\\ br' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2024-11-08 14:56:28,754:ERROR:Command execution error: 
+
+Pattern not detected: 'conf\\ t' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2024-11-08 15:29:37,911:INFO:127.0.0.1 - - [08/Nov/2024 15:29:37] "GET /socket.io/?EIO=4&transport=websocket&sid=wSFfXuaMDy_kfTIlAAAA HTTP/1.1" 200 -
+2024-11-08 15:33:01,110:INFO:127.0.0.1 - - [08/Nov/2024 15:33:01] "GET /socket.io/?EIO=4&transport=polling&t=PCBmton HTTP/1.1" 200 -
+2024-11-08 15:33:01,123:INFO:127.0.0.1 - - [08/Nov/2024 15:33:01] "POST /socket.io/?EIO=4&transport=polling&t=PCBmtoz&sid=iRUz0CmKwUjk0BugAAAC HTTP/1.1" 200 -
+2024-11-08 15:33:01,129:INFO:127.0.0.1 - - [08/Nov/2024 15:33:01] "GET /socket.io/?EIO=4&transport=polling&t=PCBmto-&sid=iRUz0CmKwUjk0BugAAAC HTTP/1.1" 200 -
+2024-11-08 15:35:38,337:INFO:127.0.0.1 - - [08/Nov/2024 15:35:38] "GET /socket.io/?EIO=4&transport=websocket&sid=iRUz0CmKwUjk0BugAAAC HTTP/1.1" 200 -
+2024-11-08 15:35:38,347:INFO:127.0.0.1 - - [08/Nov/2024 15:35:38] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 15:35:38,395:INFO:127.0.0.1 - - [08/Nov/2024 15:35:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 15:35:38,408:INFO:127.0.0.1 - - [08/Nov/2024 15:35:38] "GET /socket.io/?EIO=4&transport=polling&t=PCBnUCY HTTP/1.1" 200 -
+2024-11-08 15:35:38,417:INFO:127.0.0.1 - - [08/Nov/2024 15:35:38] "POST /socket.io/?EIO=4&transport=polling&t=PCBnUCi&sid=FG4dGyUMQu4Mxr8NAAAE HTTP/1.1" 200 -
+2024-11-08 15:35:38,419:INFO:127.0.0.1 - - [08/Nov/2024 15:35:38] "GET /socket.io/?EIO=4&transport=polling&t=PCBnUCj&sid=FG4dGyUMQu4Mxr8NAAAE HTTP/1.1" 200 -
+2024-11-08 16:27:19,984:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.70.183:5000
+2024-11-08 16:27:19,985:INFO:[33mPress CTRL+C to quit[0m
+2024-11-08 16:27:19,988:INFO: * Restarting with stat
+2024-11-08 16:27:20,524:WARNING: * Debugger is active!
+2024-11-08 16:27:20,527:INFO: * Debugger PIN: 153-269-863
+2024-11-08 16:27:23,494:INFO:127.0.0.1 - - [08/Nov/2024 16:27:23] "GET / HTTP/1.1" 200 -
+2024-11-08 16:27:23,564:INFO:127.0.0.1 - - [08/Nov/2024 16:27:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 16:27:25,215:INFO:127.0.0.1 - - [08/Nov/2024 16:27:25] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 16:27:25,238:INFO:127.0.0.1 - - [08/Nov/2024 16:27:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 16:58:09,909:INFO: * Detected change in 'c:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-08 16:58:09,954:INFO: * Restarting with stat
+2024-11-08 16:58:10,429:WARNING: * Debugger is active!
+2024-11-08 16:58:10,432:INFO: * Debugger PIN: 153-269-863
+2024-11-08 16:58:54,874:INFO:127.0.0.1 - - [08/Nov/2024 16:58:54] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 16:58:54,936:INFO:127.0.0.1 - - [08/Nov/2024 16:58:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 16:58:56,707:INFO:127.0.0.1 - - [08/Nov/2024 16:58:56] "GET / HTTP/1.1" 200 -
+2024-11-08 16:58:56,727:INFO:127.0.0.1 - - [08/Nov/2024 16:58:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 16:58:57,740:INFO:127.0.0.1 - - [08/Nov/2024 16:58:57] "GET /device_code HTTP/1.1" 200 -
+2024-11-08 16:58:57,771:INFO:127.0.0.1 - - [08/Nov/2024 16:58:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 16:59:08,904:INFO:127.0.0.1 - - [08/Nov/2024 16:59:08] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 16:59:23,592:INFO:127.0.0.1 - - [08/Nov/2024 16:59:23] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-08 16:59:25,116:INFO:127.0.0.1 - - [08/Nov/2024 16:59:25] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 16:17:35,925:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.70.183:5000
+2024-11-11 16:17:35,926:INFO:[33mPress CTRL+C to quit[0m
+2024-11-11 16:17:35,929:INFO: * Restarting with stat
+2024-11-11 16:17:36,395:WARNING: * Debugger is active!
+2024-11-11 16:17:36,398:INFO: * Debugger PIN: 153-269-863
+2024-11-11 16:18:02,573:INFO:127.0.0.1 - - [11/Nov/2024 16:18:02] "GET / HTTP/1.1" 200 -
+2024-11-11 16:18:02,670:INFO:127.0.0.1 - - [11/Nov/2024 16:18:02] "GET /static/styles.css HTTP/1.1" 200 -
+2024-11-11 16:18:02,697:INFO:127.0.0.1 - - [11/Nov/2024 16:18:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-11 16:18:03,930:INFO:127.0.0.1 - - [11/Nov/2024 16:18:03] "GET /backup_page HTTP/1.1" 200 -
+2024-11-11 16:18:03,962:INFO:127.0.0.1 - - [11/Nov/2024 16:18:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 16:18:04,967:INFO:127.0.0.1 - - [11/Nov/2024 16:18:04] "GET / HTTP/1.1" 200 -
+2024-11-11 16:18:04,996:INFO:127.0.0.1 - - [11/Nov/2024 16:18:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 16:18:05,530:INFO:127.0.0.1 - - [11/Nov/2024 16:18:05] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 16:18:05,558:INFO:127.0.0.1 - - [11/Nov/2024 16:18:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 16:18:08,968:INFO:127.0.0.1 - - [11/Nov/2024 16:18:08] "GET / HTTP/1.1" 200 -
+2024-11-11 16:18:08,993:INFO:127.0.0.1 - - [11/Nov/2024 16:18:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 16:18:12,760:INFO:127.0.0.1 - - [11/Nov/2024 16:18:12] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 16:18:12,786:INFO:127.0.0.1 - - [11/Nov/2024 16:18:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 16:18:13,722:INFO:127.0.0.1 - - [11/Nov/2024 16:18:13] "GET / HTTP/1.1" 200 -
+2024-11-11 16:18:13,745:INFO:127.0.0.1 - - [11/Nov/2024 16:18:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 16:24:16,477:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 16:24:16,597:INFO: * Restarting with stat
+2024-11-11 16:24:17,159:WARNING: * Debugger is active!
+2024-11-11 16:24:17,162:INFO: * Debugger PIN: 153-269-863
+2024-11-11 16:24:18,589:INFO:127.0.0.1 - - [11/Nov/2024 16:24:18] "GET / HTTP/1.1" 200 -
+2024-11-11 16:24:18,655:INFO:127.0.0.1 - - [11/Nov/2024 16:24:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 16:24:19,566:INFO:127.0.0.1 - - [11/Nov/2024 16:24:19] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 16:24:19,593:INFO:127.0.0.1 - - [11/Nov/2024 16:24:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 16:24:30,869:INFO:127.0.0.1 - - [11/Nov/2024 16:24:30] "[35m[1mPOST /execute_device_code HTTP/1.1[0m" 500 -
+2024-11-11 16:24:34,304:INFO:127.0.0.1 - - [11/Nov/2024 16:24:34] "[35m[1mPOST /execute_device_code HTTP/1.1[0m" 500 -
+2024-11-11 16:25:49,699:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 16:25:49,791:INFO: * Restarting with stat
+2024-11-11 16:25:50,224:WARNING: * Debugger is active!
+2024-11-11 16:25:50,226:INFO: * Debugger PIN: 153-269-863
+2024-11-11 16:25:52,130:INFO:127.0.0.1 - - [11/Nov/2024 16:25:52] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 16:25:52,182:INFO:127.0.0.1 - - [11/Nov/2024 16:25:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 16:26:00,340:INFO:127.0.0.1 - - [11/Nov/2024 16:26:00] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 16:26:01,762:INFO:127.0.0.1 - - [11/Nov/2024 16:26:01] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 16:26:02,203:INFO:127.0.0.1 - - [11/Nov/2024 16:26:02] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 16:26:02,387:INFO:127.0.0.1 - - [11/Nov/2024 16:26:02] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 16:26:02,581:INFO:127.0.0.1 - - [11/Nov/2024 16:26:02] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 16:26:04,231:INFO:127.0.0.1 - - [11/Nov/2024 16:26:04] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 16:26:04,446:INFO:127.0.0.1 - - [11/Nov/2024 16:26:04] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 16:26:04,627:INFO:127.0.0.1 - - [11/Nov/2024 16:26:04] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 16:26:19,479:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.70.183:5000
+2024-11-11 16:26:19,479:INFO:[33mPress CTRL+C to quit[0m
+2024-11-11 16:26:19,480:INFO: * Restarting with stat
+2024-11-11 16:26:19,929:WARNING: * Debugger is active!
+2024-11-11 16:26:19,931:INFO: * Debugger PIN: 153-269-863
+2024-11-11 16:26:21,147:INFO:127.0.0.1 - - [11/Nov/2024 16:26:21] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 16:26:21,199:INFO:127.0.0.1 - - [11/Nov/2024 16:26:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 16:26:30,744:INFO:127.0.0.1 - - [11/Nov/2024 16:26:30] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 16:27:02,156:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 16:27:02,242:INFO: * Restarting with stat
+2024-11-11 16:27:02,679:WARNING: * Debugger is active!
+2024-11-11 16:27:02,681:INFO: * Debugger PIN: 153-269-863
+2024-11-11 16:51:24,736:INFO:127.0.0.1 - - [11/Nov/2024 16:51:24] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 16:51:51,557:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 16:51:51,653:INFO: * Restarting with stat
+2024-11-11 16:51:52,205:WARNING: * Debugger is active!
+2024-11-11 16:51:52,207:INFO: * Debugger PIN: 153-269-863
+2024-11-11 16:51:53,432:INFO:127.0.0.1 - - [11/Nov/2024 16:51:53] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 16:51:53,494:INFO:127.0.0.1 - - [11/Nov/2024 16:51:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 16:52:04,037:INFO:127.0.0.1 - - [11/Nov/2024 16:52:04] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 16:54:28,079:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 16:54:28,171:INFO: * Restarting with stat
+2024-11-11 16:54:28,701:WARNING: * Debugger is active!
+2024-11-11 16:54:28,703:INFO: * Debugger PIN: 153-269-863
+2024-11-11 16:54:30,113:INFO:127.0.0.1 - - [11/Nov/2024 16:54:30] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 16:54:30,166:INFO:127.0.0.1 - - [11/Nov/2024 16:54:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 16:54:42,073:INFO:127.0.0.1 - - [11/Nov/2024 16:54:42] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:01:50,110:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:01:50,195:INFO: * Restarting with stat
+2024-11-11 17:01:50,657:WARNING: * Debugger is active!
+2024-11-11 17:01:50,659:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:01:53,045:INFO:127.0.0.1 - - [11/Nov/2024 17:01:53] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:01:54,359:INFO:127.0.0.1 - - [11/Nov/2024 17:01:54] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:01:54,413:INFO:127.0.0.1 - - [11/Nov/2024 17:01:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:02:02,991:INFO:127.0.0.1 - - [11/Nov/2024 17:02:02] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:02:03,814:INFO:127.0.0.1 - - [11/Nov/2024 17:02:03] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:02:04,000:INFO:127.0.0.1 - - [11/Nov/2024 17:02:03] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:02:04,183:INFO:127.0.0.1 - - [11/Nov/2024 17:02:04] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:02:32,884:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:02:32,949:INFO: * Restarting with stat
+2024-11-11 17:02:33,453:WARNING: * Debugger is active!
+2024-11-11 17:02:33,456:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:02:38,383:INFO:127.0.0.1 - - [11/Nov/2024 17:02:38] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:02:38,440:INFO:127.0.0.1 - - [11/Nov/2024 17:02:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:02:51,206:INFO:127.0.0.1 - - [11/Nov/2024 17:02:51] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:04:46,161:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:04:46,247:INFO: * Restarting with stat
+2024-11-11 17:04:46,818:WARNING: * Debugger is active!
+2024-11-11 17:04:46,821:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:04:57,133:INFO:127.0.0.1 - - [11/Nov/2024 17:04:57] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:04:57,192:INFO:127.0.0.1 - - [11/Nov/2024 17:04:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:05:15,276:INFO:127.0.0.1 - - [11/Nov/2024 17:05:15] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:05:45,074:INFO:127.0.0.1 - - [11/Nov/2024 17:05:45] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:05:59,247:INFO:127.0.0.1 - - [11/Nov/2024 17:05:59] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:06:42,411:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:06:42,486:INFO: * Restarting with stat
+2024-11-11 17:06:42,952:WARNING: * Debugger is active!
+2024-11-11 17:06:42,954:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:06:44,656:INFO:127.0.0.1 - - [11/Nov/2024 17:06:44] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:06:44,719:INFO:127.0.0.1 - - [11/Nov/2024 17:06:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:06:59,706:INFO:127.0.0.1 - - [11/Nov/2024 17:06:59] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:07:11,178:INFO:127.0.0.1 - - [11/Nov/2024 17:07:11] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:07:19,188:INFO:127.0.0.1 - - [11/Nov/2024 17:07:19] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:07:24,880:INFO:127.0.0.1 - - [11/Nov/2024 17:07:24] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:07:36,945:INFO:127.0.0.1 - - [11/Nov/2024 17:07:36] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:07:51,482:INFO:127.0.0.1 - - [11/Nov/2024 17:07:51] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:07:58,120:INFO:127.0.0.1 - - [11/Nov/2024 17:07:58] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:08:04,723:INFO:127.0.0.1 - - [11/Nov/2024 17:08:04] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:08:26,070:INFO:127.0.0.1 - - [11/Nov/2024 17:08:26] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:08:35,809:INFO:127.0.0.1 - - [11/Nov/2024 17:08:35] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:14:38,503:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:14:38,595:INFO: * Restarting with stat
+2024-11-11 17:14:39,206:WARNING: * Debugger is active!
+2024-11-11 17:14:39,208:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:14:40,143:INFO:127.0.0.1 - - [11/Nov/2024 17:14:40] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:14:40,202:INFO:127.0.0.1 - - [11/Nov/2024 17:14:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:14:51,712:INFO:127.0.0.1 - - [11/Nov/2024 17:14:51] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:15:06,306:INFO:127.0.0.1 - - [11/Nov/2024 17:15:06] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:15:15,395:INFO:127.0.0.1 - - [11/Nov/2024 17:15:15] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:20:21,816:INFO:127.0.0.1 - - [11/Nov/2024 17:20:21] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:20:38,938:INFO:127.0.0.1 - - [11/Nov/2024 17:20:38] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:21:30,847:INFO:127.0.0.1 - - [11/Nov/2024 17:21:30] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:24:46,446:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:24:46,530:INFO: * Restarting with stat
+2024-11-11 17:24:47,101:WARNING: * Debugger is active!
+2024-11-11 17:24:47,103:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:24:51,212:INFO:127.0.0.1 - - [11/Nov/2024 17:24:51] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:24:51,271:INFO:127.0.0.1 - - [11/Nov/2024 17:24:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:25:10,016:INFO:127.0.0.1 - - [11/Nov/2024 17:25:10] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:25:31,607:INFO:127.0.0.1 - - [11/Nov/2024 17:25:31] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:25:45,092:INFO:127.0.0.1 - - [11/Nov/2024 17:25:45] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:26:00,763:INFO:127.0.0.1 - - [11/Nov/2024 17:26:00] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:26:09,561:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:26:09,646:INFO: * Restarting with stat
+2024-11-11 17:26:10,125:WARNING: * Debugger is active!
+2024-11-11 17:26:10,128:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:26:19,180:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:26:19,262:INFO: * Restarting with stat
+2024-11-11 17:26:19,715:WARNING: * Debugger is active!
+2024-11-11 17:26:19,717:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:26:23,102:INFO:127.0.0.1 - - [11/Nov/2024 17:26:23] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:26:23,158:INFO:127.0.0.1 - - [11/Nov/2024 17:26:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:26:41,171:INFO:127.0.0.1 - - [11/Nov/2024 17:26:41] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:26:52,760:INFO:127.0.0.1 - - [11/Nov/2024 17:26:52] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:27:03,092:INFO:127.0.0.1 - - [11/Nov/2024 17:27:03] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:27:57,227:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:27:57,380:INFO: * Restarting with stat
+2024-11-11 17:27:57,874:WARNING: * Debugger is active!
+2024-11-11 17:27:57,876:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:27:58,853:INFO:127.0.0.1 - - [11/Nov/2024 17:27:58] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:27:58,908:INFO:127.0.0.1 - - [11/Nov/2024 17:27:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:28:08,448:INFO:127.0.0.1 - - [11/Nov/2024 17:28:08] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:28:25,399:INFO:127.0.0.1 - - [11/Nov/2024 17:28:25] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:28:48,820:INFO:127.0.0.1 - - [11/Nov/2024 17:28:48] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:28:53,568:INFO:127.0.0.1 - - [11/Nov/2024 17:28:53] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:29:06,243:INFO:127.0.0.1 - - [11/Nov/2024 17:29:06] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:29:15,954:INFO:127.0.0.1 - - [11/Nov/2024 17:29:15] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:29:26,988:INFO:127.0.0.1 - - [11/Nov/2024 17:29:26] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:29:31,576:INFO:127.0.0.1 - - [11/Nov/2024 17:29:31] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:29:36,988:INFO:127.0.0.1 - - [11/Nov/2024 17:29:36] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:30:18,625:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:30:18,707:INFO: * Restarting with stat
+2024-11-11 17:30:19,154:WARNING: * Debugger is active!
+2024-11-11 17:30:19,156:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:30:21,906:INFO:127.0.0.1 - - [11/Nov/2024 17:30:21] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:30:21,967:INFO:127.0.0.1 - - [11/Nov/2024 17:30:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:32:21,690:INFO:127.0.0.1 - - [11/Nov/2024 17:32:21] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:32:21,715:INFO:127.0.0.1 - - [11/Nov/2024 17:32:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:32:22,529:INFO:127.0.0.1 - - [11/Nov/2024 17:32:22] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:32:22,563:INFO:127.0.0.1 - - [11/Nov/2024 17:32:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:32:22,999:INFO:127.0.0.1 - - [11/Nov/2024 17:32:22] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:32:23,028:INFO:127.0.0.1 - - [11/Nov/2024 17:32:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:32:23,446:INFO:127.0.0.1 - - [11/Nov/2024 17:32:23] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:32:23,471:INFO:127.0.0.1 - - [11/Nov/2024 17:32:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:32:23,927:INFO:127.0.0.1 - - [11/Nov/2024 17:32:23] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:32:23,953:INFO:127.0.0.1 - - [11/Nov/2024 17:32:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:32:24,426:INFO:127.0.0.1 - - [11/Nov/2024 17:32:24] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:32:24,452:INFO:127.0.0.1 - - [11/Nov/2024 17:32:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:32:37,224:INFO:127.0.0.1 - - [11/Nov/2024 17:32:37] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:32:37,249:INFO:127.0.0.1 - - [11/Nov/2024 17:32:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:35:59,789:INFO:127.0.0.1 - - [11/Nov/2024 17:35:59] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:35:59,816:INFO:127.0.0.1 - - [11/Nov/2024 17:35:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:36:07,121:INFO:127.0.0.1 - - [11/Nov/2024 17:36:07] "GET / HTTP/1.1" 200 -
+2024-11-11 17:36:07,146:INFO:127.0.0.1 - - [11/Nov/2024 17:36:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:36:07,669:INFO:127.0.0.1 - - [11/Nov/2024 17:36:07] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:36:07,699:INFO:127.0.0.1 - - [11/Nov/2024 17:36:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:36:19,785:INFO:127.0.0.1 - - [11/Nov/2024 17:36:19] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:36:53,431:INFO:127.0.0.1 - - [11/Nov/2024 17:36:53] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:37:19,697:INFO:127.0.0.1 - - [11/Nov/2024 17:37:19] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:37:32,774:INFO:127.0.0.1 - - [11/Nov/2024 17:37:32] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:37:39,529:INFO:127.0.0.1 - - [11/Nov/2024 17:37:39] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:37:39,569:INFO:127.0.0.1 - - [11/Nov/2024 17:37:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:38:25,687:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:38:25,766:INFO: * Restarting with stat
+2024-11-11 17:38:26,281:WARNING: * Debugger is active!
+2024-11-11 17:38:26,283:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:38:31,326:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:38:31,369:INFO: * Restarting with stat
+2024-11-11 17:38:31,851:WARNING: * Debugger is active!
+2024-11-11 17:38:31,853:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:38:37,893:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:38:37,943:INFO: * Restarting with stat
+2024-11-11 17:38:38,408:WARNING: * Debugger is active!
+2024-11-11 17:38:38,410:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:38:40,432:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\app.py', reloading
+2024-11-11 17:38:40,480:INFO: * Restarting with stat
+2024-11-11 17:38:40,947:WARNING: * Debugger is active!
+2024-11-11 17:38:40,949:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:38:52,001:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\celery_worker.py', reloading
+2024-11-11 17:38:52,076:INFO: * Restarting with stat
+2024-11-11 17:38:52,611:WARNING: * Debugger is active!
+2024-11-11 17:38:52,613:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:40:08,984:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\ssh.py', reloading
+2024-11-11 17:40:09,089:INFO: * Restarting with stat
+2024-11-11 17:40:09,551:WARNING: * Debugger is active!
+2024-11-11 17:40:09,553:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:40:12,577:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\ssh.py', reloading
+2024-11-11 17:40:12,637:INFO: * Restarting with stat
+2024-11-11 17:40:13,111:WARNING: * Debugger is active!
+2024-11-11 17:40:13,113:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:40:16,132:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\ssh.py', reloading
+2024-11-11 17:40:16,186:INFO: * Restarting with stat
+2024-11-11 17:40:16,730:WARNING: * Debugger is active!
+2024-11-11 17:40:16,732:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:40:18,753:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\ssh.py', reloading
+2024-11-11 17:40:18,814:INFO: * Restarting with stat
+2024-11-11 17:40:19,369:WARNING: * Debugger is active!
+2024-11-11 17:40:19,371:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:40:26,412:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\console.py', reloading
+2024-11-11 17:40:26,461:INFO: * Restarting with stat
+2024-11-11 17:40:27,014:WARNING: * Debugger is active!
+2024-11-11 17:40:27,017:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:40:29,038:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\console.py', reloading
+2024-11-11 17:40:29,100:INFO: * Restarting with stat
+2024-11-11 17:40:29,585:WARNING: * Debugger is active!
+2024-11-11 17:40:29,588:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:40:31,606:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\console.py', reloading
+2024-11-11 17:40:31,651:INFO: * Restarting with stat
+2024-11-11 17:40:32,105:WARNING: * Debugger is active!
+2024-11-11 17:40:32,108:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:40:40,148:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\console.py', reloading
+2024-11-11 17:40:40,230:INFO: * Restarting with stat
+2024-11-11 17:40:40,707:WARNING: * Debugger is active!
+2024-11-11 17:40:40,709:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:40:43,732:INFO: * Detected change in 'C:\\Users\\ysiner\\OneDrive - MORTEN\\Documents\\temp\\sshbackup\\project2\\console.py', reloading
+2024-11-11 17:40:43,786:INFO: * Restarting with stat
+2024-11-11 17:40:44,231:WARNING: * Debugger is active!
+2024-11-11 17:40:44,233:INFO: * Debugger PIN: 153-269-863
+2024-11-11 17:42:11,652:INFO:127.0.0.1 - - [11/Nov/2024 17:42:11] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:42:11,715:INFO:127.0.0.1 - - [11/Nov/2024 17:42:11] "GET /static/styles.css HTTP/1.1" 200 -
+2024-11-11 17:42:13,082:INFO:127.0.0.1 - - [11/Nov/2024 17:42:13] "GET / HTTP/1.1" 200 -
+2024-11-11 17:42:13,106:INFO:127.0.0.1 - - [11/Nov/2024 17:42:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:42:13,698:INFO:127.0.0.1 - - [11/Nov/2024 17:42:13] "GET /backup_page HTTP/1.1" 200 -
+2024-11-11 17:42:13,724:INFO:127.0.0.1 - - [11/Nov/2024 17:42:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:42:14,765:INFO:127.0.0.1 - - [11/Nov/2024 17:42:14] "GET / HTTP/1.1" 200 -
+2024-11-11 17:42:14,790:INFO:127.0.0.1 - - [11/Nov/2024 17:42:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:42:15,381:INFO:127.0.0.1 - - [11/Nov/2024 17:42:15] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:42:15,406:INFO:127.0.0.1 - - [11/Nov/2024 17:42:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:42:17,272:INFO:127.0.0.1 - - [11/Nov/2024 17:42:17] "GET / HTTP/1.1" 200 -
+2024-11-11 17:42:17,295:INFO:127.0.0.1 - - [11/Nov/2024 17:42:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:42:18,016:INFO:127.0.0.1 - - [11/Nov/2024 17:42:18] "GET /backup_page HTTP/1.1" 200 -
+2024-11-11 17:42:18,040:INFO:127.0.0.1 - - [11/Nov/2024 17:42:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:43:59,975:INFO:127.0.0.1 - - [11/Nov/2024 17:43:59] "GET / HTTP/1.1" 200 -
+2024-11-11 17:44:00,007:INFO:127.0.0.1 - - [11/Nov/2024 17:44:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:44:00,631:INFO:127.0.0.1 - - [11/Nov/2024 17:44:00] "GET /backup_page HTTP/1.1" 200 -
+2024-11-11 17:44:00,656:INFO:127.0.0.1 - - [11/Nov/2024 17:44:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:44:02,178:INFO:127.0.0.1 - - [11/Nov/2024 17:44:02] "GET / HTTP/1.1" 200 -
+2024-11-11 17:44:02,204:INFO:127.0.0.1 - - [11/Nov/2024 17:44:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:44:02,603:INFO:127.0.0.1 - - [11/Nov/2024 17:44:02] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:44:02,633:INFO:127.0.0.1 - - [11/Nov/2024 17:44:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:44:37,189:INFO:127.0.0.1 - - [11/Nov/2024 17:44:37] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:44:37,217:INFO:127.0.0.1 - - [11/Nov/2024 17:44:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:45:13,403:INFO:127.0.0.1 - - [11/Nov/2024 17:45:13] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:45:13,435:INFO:127.0.0.1 - - [11/Nov/2024 17:45:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:45:18,589:INFO:127.0.0.1 - - [11/Nov/2024 17:45:18] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:45:18,615:INFO:127.0.0.1 - - [11/Nov/2024 17:45:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-11-11 17:46:07,118:INFO:127.0.0.1 - - [11/Nov/2024 17:46:07] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:46:23,963:INFO:127.0.0.1 - - [11/Nov/2024 17:46:23] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:46:27,882:INFO:127.0.0.1 - - [11/Nov/2024 17:46:27] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:46:42,543:INFO:127.0.0.1 - - [11/Nov/2024 17:46:42] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:46:49,740:INFO:127.0.0.1 - - [11/Nov/2024 17:46:49] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:47:16,653:INFO:127.0.0.1 - - [11/Nov/2024 17:47:16] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:47:32,917:INFO:127.0.0.1 - - [11/Nov/2024 17:47:32] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:47:38,413:INFO:127.0.0.1 - - [11/Nov/2024 17:47:38] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:47:43,643:INFO:127.0.0.1 - - [11/Nov/2024 17:47:43] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:47:53,697:INFO:127.0.0.1 - - [11/Nov/2024 17:47:53] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:47:59,082:INFO:127.0.0.1 - - [11/Nov/2024 17:47:59] "POST /execute_device_code HTTP/1.1" 200 -
+2024-11-11 17:48:01,247:INFO:127.0.0.1 - - [11/Nov/2024 17:48:01] "GET /device_code HTTP/1.1" 200 -
+2024-11-11 17:48:01,284:INFO:127.0.0.1 - - [11/Nov/2024 17:48:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-26 14:42:30,053:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.70.140:5000
+2024-12-26 14:42:30,054:INFO:[33mPress CTRL+C to quit[0m
+2024-12-26 14:42:30,055:INFO: * Restarting with stat
+2024-12-26 14:42:30,482:WARNING: * Debugger is active!
+2024-12-26 14:42:30,485:INFO: * Debugger PIN: 433-170-257
+2024-12-26 14:42:49,468:INFO:127.0.0.1 - - [26/Dec/2024 14:42:49] "GET / HTTP/1.1" 200 -
+2024-12-26 14:42:49,546:INFO:127.0.0.1 - - [26/Dec/2024 14:42:49] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-26 14:42:49,694:INFO:127.0.0.1 - - [26/Dec/2024 14:42:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-26 14:42:56,747:INFO:127.0.0.1 - - [26/Dec/2024 14:42:56] "GET /device_code HTTP/1.1" 200 -
+2024-12-26 14:42:56,825:INFO:127.0.0.1 - - [26/Dec/2024 14:42:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -

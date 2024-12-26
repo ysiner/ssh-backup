@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Device Automation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="welcome-container">
+        <header>
+            <h1>Network Device Automation</h1>
+        </header>
+        <section>
+            <p>Securely backup your network devices and send commands.</p>
+        </section>
+        <div class="start-button">
+            <a href="{{ url_for('backup_page') }}" class="button">Device Backup Execution</a>
+        </div>
+        <div class="device-code-button">
+            <a href="{{ url_for('device_code') }}" class="button">Device Code Execution</a>
+        </div>
+    </div>
+</body>
+</html>
