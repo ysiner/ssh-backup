@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-push-docker-image:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
     - name: Checkout code
@@ -24,13 +24,15 @@ jobs:
 
     - name: Build and Push Docker Image
       run: |
-        docker build -t ysiner/ssh-app:${{ github.sha }} .
-        docker tag ysiner/ssh-app:${{ github.sha }} ysiner/ssh-app:latest
-        docker push ysiner/ssh-app:${{ github.sha }}
-        docker push ysiner/ssh-app:latest
+        IMAGE_NAME=ysiner/ssh-app
+        IMAGE_TAG=${{ github.sha }}
+        docker build -t $IMAGE_NAME:$IMAGE_TAG .
+        docker tag $IMAGE_NAME:$IMAGE_TAG $IMAGE_NAME:latest
+        docker push $IMAGE_NAME:$IMAGE_TAG
+        docker push $IMAGE_NAME:latest
 
   deploy-to-kubernetes:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: build-and-push-docker-image
 
     steps:
@@ -38,16 +40,22 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Set up kubectl
-      uses: azure/setup-kubectl@v3
-      with:
-        version: 'latest'
+      run: |
+        curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+        chmod +x kubectl
+        sudo mv kubectl /usr/local/bin/
 
-    - name: Set up KUBECONFIG from GitHub Secrets
+    - name: Set up KUBECONFIG
       run: |
         mkdir -p $HOME/.kube
         echo "${{ secrets.KUBECONFIG }}" | base64 --decode > $HOME/.kube/config
 
-    - name: Deploy to Kubernetes
+    - name: Update Kubernetes Deployment
+      env:
+        IMAGE_NAME: ysiner/ssh-app
       run: |
-        kubectl set image deployment/ssh-app ssh-app=ysiner/ssh-app:latest -n default
-        kubectl rollout restart deployment/ssh-app -n default
+        # Update deployment with the new image
+        kubectl set image deployment/ssh-app ssh-app=$IMAGE_NAME:latest -n default
+        
+        # Check rollout status to ensure deployment was successful
+        kubectl rollout status deployment/ssh-app -n default
