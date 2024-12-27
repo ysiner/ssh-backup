@@ -55,7 +55,7 @@ jobs:
         IMAGE_NAME: ysiner/ssh-app
       run: |
         # Update deployment with the new image
-        kubectl set image deployment/ssh-app ssh-app=$IMAGE_NAME:latest -n default
+        kubectl set image deployment/ssh-app ssh-app=$IMAGE_NAME:latest -n app
         
         # Check rollout status to ensure deployment was successful
-        kubectl rollout status deployment/ssh-app -n default
+        kubectl rollout status deployment/ssh-app -n app
