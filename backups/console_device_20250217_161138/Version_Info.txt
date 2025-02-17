@@ -1,0 +1,3 @@
+console_device#show version
+
+End of File

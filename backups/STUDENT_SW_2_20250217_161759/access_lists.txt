@@ -1,0 +1,9 @@
+STUDENT_SW_2#sh access-lists
+        
+STUDENT_SW_2#h access-lists
+help access-lists
+     ^
+% Invalid input detected at '^' marker.
+
+STUDENT_SW_2#
+End of File

@@ -1,0 +1,27 @@
+STUDENT_SW_2#sh mac address-table
+t_sw_2-confg) failed
+*Mar  1 00:14:42.800: %SYS-4-CONFIG_RESO1665   Mar 1 1993 00:17:49 +00:00  BARIS_K7_INITIAL_RACK19
+  144  -rwx        6522   Mar 1 1993 09:55:00 +00:00  BARIS_K8_COMPLETED_RACK8
+  145  -rwx        4392   Mar 1 1993 01:39:17 +00:00  K7_Sec2.5_Comp_Ebu_2904_SW3
+  146  -rwx        6819   Mar 2 1993 05:46:44 +00:00  BARIS_K8+_COMPLETED_RACK8
+  147  -rwx        2275   Mar 1 1993 00:16:29 +00:00  K7_initial_Ebu_SW3_29042014
+  148  -rwx        2259   Mar 1 1993 00:06:33 +00:00  BARIS_NEWK_INITIAL_Rack26
+  149  -rwx        4298   Mar 1 1993 01:24:34 +00:00  Hasan-K8-1.7-DONE
+  150  -rwx        4LVE_FAILURE: System config parse from (tftp://255.255.255.255/student_.cfg) failed905   Mar 1 1993 02:21:26 +00:00  k8+tksec1completed
+
+15998976 bytes total (3524096 bytes free)
+STUDENT_SW_2#sh int status
+
+Port      Name               Status       Vlan       Duplex  Speed Type
+Fa0/1                        notconnect   1            auto   auto 10/100BaseTX
+Fa0/2                        notconnect   1            auto   auto 10/100BaseTX
+Fa0/3                        notconnect   1            auto   auto 10/100BaseTX
+Fa0/4                        notconnect   1            auto   auto 10/100BaseTX
+Fa0/5                        notconnect   1            auto   auto 10/100BaseTX
+Fa0/6                        notconnect   1            auto   auto 10/100BaseTX
+Fa0/7                        notconnect   1            auto   auto 10/100BaseTX
+Fa0/8                        notconnect   1            auto   auto 10/100BaseTX
+Fa0/9                        notconnect   1            auto   auto 10/100BaseTX
+Fa0/10                       notconnect   1            auto   auto 10/100BaseTX
+Fa0/11                       notcon
+End of File

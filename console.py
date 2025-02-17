@@ -8,7 +8,20 @@ def send_to_console(ser: serial.Serial, command: str, wait_time: float = 0.5):
     command_to_send = command + "\r"
     ser.write(command_to_send.encode('utf-8'))
     sleep(wait_time)
-    return ser.read(ser.inWaiting()).decode('utf-8')
+    
+    output = ""
+    while True:
+        if ser.inWaiting() > 0:
+            part = ser.read(ser.inWaiting()).decode('utf-8')
+            if "--More--" in part:
+                ser.write(b" ")  # Send space to get more output
+                part = part.replace("--More--", "")
+            output += part
+            sleep(wait_time)
+        else:
+            break
+    
+    return output
 
 def get_hostname(connection):
     try:
@@ -20,26 +33,40 @@ def get_hostname(connection):
         print(f"Failed to retrieve hostname: {e}")
     return "unknown"
 
-def perform_console_backup(com_port, baudrate, commands, command_descriptions, backup_directory='/mnt/backup', username=None, password=None):
+def perform_console_backup(com_port, baudrate, username=None, password=None, backup_directory='./backups'):
+    commands = [
+        "sh env all", "sh startup", "sh access-lists", "sh arp", "sh boot", 
+        "sh cdp neighbors", "sh flash: ", "sh int status", "sh int trunk", 
+        "sh inv", "sh ip int br", "sh ip route", "sh lldp neighbors", 
+        "sh mac address-table", "show vlan brief", "dir"
+    ]
+    command_descriptions = [
+        "env_all", "run", "access_lists", "arp", "boot", "cdp_neighbors", 
+        "flash", "int_status", "int_trunk", "inv", "ip_int_br", "ip_route", 
+        "lldp_neighbors", "mac_address_table", "vlan_br", "dir"
+    ]
+
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     zip_filename = f"{timestamp}.zip"
     zip_filepath = os.path.join(backup_directory, zip_filename)
     os.makedirs(backup_directory, exist_ok=True)
 
-    with serial.Serial(com_port, baudrate=int(baudrate), timeout=1) as connection:
-        send_to_console(connection, "")
-        if username and password:
-            send_to_console(connection, f"username {username}")  
-            send_to_console(connection, f"password {password}")  
-        send_to_console(connection, "enable")
-        hostname = get_hostname(connection)
-        if hostname == "unknown":
-            hostname = "console_device"
+    success = True
+    with zipfile.ZipFile(zip_filepath, 'w') as zip_file:
+        with serial.Serial(com_port, baudrate=int(baudrate), timeout=1) as connection:
+            send_to_console(connection, "")
+            if username and password:
+                send_to_console(connection, f"username {username}")  
+                send_to_console(connection, f"password {password}")  
+            send_to_console(connection, "enable")
+            send_to_console(connection, "terminal length 0")
+            hostname = get_hostname(connection)
+            if hostname == "unknown":
+                hostname = "console_device"
 
-        device_backup_dir = os.path.join(backup_directory, f"{hostname}_{timestamp}")
-        os.makedirs(device_backup_dir, exist_ok=True)
+            device_backup_dir = os.path.join(backup_directory, f"{hostname}_{timestamp}")
+            os.makedirs(device_backup_dir, exist_ok=True)
 
-        with zipfile.ZipFile(zip_filepath, 'w') as zip_file:
             for command, description in zip(commands, command_descriptions):
                 filepath = os.path.join(device_backup_dir, f"{description}.txt")
                 with open(filepath, "w") as f:
@@ -49,4 +76,15 @@ def perform_console_backup(com_port, baudrate, commands, command_descriptions, b
                     f.write("\nEnd of File")
                 zip_file.write(filepath, os.path.basename(filepath))
 
-    return zip_filepath
+    return zip_filepath if success else None
+
+# Example usage
+if __name__ == "__main__":
+    backup_path = perform_console_backup(
+        com_port="COM3",
+        baudrate=9600,
+        username="your_username",
+        password="your_password",
+        backup_directory="./backups"
+    )
+    print(f"Backup saved to {backup_path}")

@@ -1,0 +1,138 @@
+STUDENT_SW_2#show version
+62721536
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-3562721536
+ revocation-check none
+ rsakeypair TP-self-signed-3562721536
+!
+!
+crypto pki certificate chain TP-self-signed-3562721536
+ certificate self-signed 01 nvram:IOS-Self-Sig#3636.cer
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+vlan internal allocation policy ascending
+!
+!
+!
+interface FastEthernet0/1
+!
+interface FastEthernet0/2
+!
+interface FastEthernet0/3
+!
+interface FastEthernet0/4
+!
+interface FastEthernet0/5
+!
+interface FastEthernet0/6
+!
+interface FastEthernet0/7
+!
+interface FastEthernet0/8
+!
+interface FastEthernet0/9
+!
+interface FastEthernet0/10
+!
+interface FastEthernet0/11
+!
+interface FastEthernet0/12
+!
+interface FastEthernet0/13
+!
+interface FastEthernet0/14
+!
+interface FastEthernet0/15
+!
+interface FastEthernet0/16
+!
+interface FastEthernet0/17
+!
+interface FastEthernet0/18
+!
+interface FastEthernet0/19
+!
+interface FastEthernet0/20
+!
+interface FastEthernet0/21
+!
+interface FastEthernet0/22
+!
+interface FastEthernet0/23
+!
+interface FastEthernet0/24
+!
+interface GigabitEthernet0/1
+!
+interface GigabitEthernet0/2
+!
+interface Vlan1
+ ip address dhcp
+!
+ip classless
+ip http server
+ip http secure-server
+!
+!
+!
+line con 0
+line vty 0 4
+ login
+line vty 5 15
+ login
+!
+end
+
+STUDENT_SW_2#show version
+Cisco IOS Software, C3560 Software (C3560-IPBASEK9-M), Version 12.2(55)SE11, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 17-Aug-16 13:07 by prod_rel_team
+Image text-base: 0x01000000, data-base: 0x02D00000
+
+ROM: Bootstrap program is C3560 boot loader
+BOOTLDR: C3560 Boot Loader (C3560-HBOOT-M) Version 12.2(44)SE5, RELEASE SOFTWARE (fc1)
+
+STUDENT_SW_2 uptime is 18 minutes
+System returned to ROM by power-on
+System image file is "flash:c3560-ipbasek9-mz.122-55.SE11.bin"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+cisco WS-C3560-24PS (PowerPC405) processor (revision Q0) with 131072K bytes of memory.
+Processor board ID FDO1115Y1P1
+Last reset from power-on
+1 Virtual Ethernet interface
+24 FastEthernet interfaces
+2 Gigabit Ethernet interfaces
+The password-recovery mechanism is enabled.
+
+512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : 00:1B:D4:5A:D1:00
+Motherboard assembly number     : 73-9673-09
+Power supply part number        : 341-0029-05
+Motherboard serial number       : FDO11150A4D
+Power supply serial number      : LIT111202AL
+Model revision number           : Q0
+Motherboard revision number     : B0
+Model number                    : WS-C3560-24PS-S
+System serial
+End of File

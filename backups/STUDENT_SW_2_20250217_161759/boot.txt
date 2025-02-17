@@ -1,0 +1,18 @@
+STUDENT_SW_2#sh boot
+sh boot
+BOOT path-list      : flash:c3560-ipbasek9-mz.122-55.SE11.bin
+Config file         : flash:/config.text
+Private Config file : flash:/private-config.text
+Enable Break        : no
+Manual Boot         : no
+HELPER path-list    : 
+Auto upgrade        : yes
+Auto upgrade path   : 
+NVRAM/Config file
+      buffer size:   524288
+Timeout for Config
+          Download:    0 seconds
+Config Download 
+       via DHCP:       disabled (next boot: disabled)
+STUDENT_SW_2#
+End of File

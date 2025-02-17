@@ -1,0 +1,8 @@
+console_device#show interfaces
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery 
+End of File

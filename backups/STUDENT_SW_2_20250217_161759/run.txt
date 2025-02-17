@@ -1,0 +1,27 @@
+STUDENT_SW_2#sh startup
+sh startup
+Using 1582 out of 524288 bytes
+!
+version 12.2
+service config
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname STUDENT_SW_2
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+!
+no aaa new-model
+system mtu routing 1500
+!
+!
+!
+!
+ --More-- 
+End of File

@@ -1,0 +1,8 @@
+STUDENT_SW_2#show version
+        
+STUDENT_SW_2#how version
+              ^
+% Invalid input detected at '^' marker.
+
+STUDENT_SW_2#
+End of File

@@ -1,0 +1,26 @@
+STUDENT_SW_2#sh inv
+hmet_k7_section2_son
+   55  -rwx        2298   Mar 1 1993 00:38:16 +00:00  ahmet_k6_section_1_son
+   56  -rwx        1665   Mar 1 1993 00:02:34 +00:00  E_K7_initial
+   57  -rwx        3914   Mar 1 1993 01:52:59 +00:00  E_K6++_until_Sec2
+   58  -rwx        3204   Mar 1 1993 01:08:04 +00:00  burak_k6_s2
+   59  -rwx        3063   Mar 1 1993 06:04:28 +00:00  burak_k6_s1
+   60  -rwx        1990   Mar 1 1993 00:23:40 +00:00  burak_k7_initial
+   61  -rwx        3204   Mar 1 1993 06:56:48 +00:00  burak_k6_s2.7
+   62  -rwx        3368   Mar 2 1993 01:04:51 +00:00  burak_k6_s2.8
+   63  -rwx        9131   Mar 1 1993 03:29:55 +00:00  MERIC_K8+_4.7_COMPLETED
+   65  -rwx        3891   Mar 1 1993 00:15:16 +00:00  ahmet_k8_sw3_initial
+   66  -rwx        6755   Mar 3 1993 12:06:24 +00:00  turgut-K7.4-completed
+   68  -rwx        1627   Mar 1 1993 00:27:21 +00:00  ahmet_k6_SW3_initial
+   69  -rwx        6181   Mar 2 1993 13:24:20 +00:00  turgut-K7.1-completed
+   70  -rwx        6517   Mar 2 1993 19:15:29 +00:00  turgut-K7.2-completed
+   71  -rwx        7374   Mar 1 1993 00:13:55 +00:00  MERIC_K8+_3.1_COMPLETED
+   72  -rwx        6755   Mar 3 1993 15:57:42 +00:00  turgut-K7.5-completed
+   73  -rwx        4084   Mar 1 1993 22:20:32 +00:00  Rack19SW3_GULSAH
+   74  -rwx        7030   Mar 1 1993 00:32:24 +00:00  turgut-K7+.2-completed
+   75  -rwx        5306   Mar 1 1993 06:04:35 +00:00  ercan-20
+   76  -rwx        2581   Mar 1 1993 00:13:32 +00:00  meric_k7_intial
+   77  -rwx        7030   Mar 1 1993 01:36:52 +00:00  turgut-K7+.3-completed
+   78  -rwx        2013   Mar 1 1993 00:39:04 +00:00  MERIC_K6_1.2_COMPLETED
+   79  -rwx        6657   Mar 1 1993 01:09:18 +00:00  MERIC_K7+_SECTION_1.
+End of File

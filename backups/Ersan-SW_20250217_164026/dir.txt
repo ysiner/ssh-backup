@@ -1,0 +1,52 @@
+Ersan-SW#dir
+Directory of flash:/
+
+48592   -rw-          2097152   Feb 5 2025 05:08:15 +00:00  nvram_config_bkup
+48591   -rw-          2097152   Feb 5 2025 05:08:15 +00:00  nvram_config
+48579   drwx             4096  Sep 15 2024 08:20:55 +00:00  .installer
+48600   -rw-                0  Sep 15 2024 08:19:13 +00:00  dope_hist
+48587   -rw-            15116  Sep 15 2024 08:19:13 +00:00  rdope_out.txt
+48589   -rw-               89  Sep 15 2024 08:19:11 +00:00  rdope.log
+89058   drwx             4096  Sep 15 2024 08:19:08 +00:00  license_evlog
+48584   -rw-           137940  Sep 15 2024 08:18:09 +00:00  memleak.tcl
+48580   -rw-             2133  Sep 15 2024 08:18:09 +00:00  boothelper.log
+105249  drwx             4096  Sep 15 2024 08:18:04 +00:00  dc_profile_dir
+48581   -rw-             3811  Sep 15 2024 08:17:44 +00:00  bootloader_evt_handle.log
+72865   drwx             4096  Aug 27 2024 09:42:02 +00:00  .prst_sync
+48578   -rw-             2133  Aug 27 2024 09:41:14 +00:00  boothelper.log.old
+48639   -rw-              372  Aug 27 2024 09:39:46 +00:00  lateshutdown.log
+48638   -rw-             1261  Aug 27 2024 09:38:03 +00:00  Baltimore.ca
+48637   -rw-             1606  Aug 27 2024 09:38:03 +00:00  StarfieldServicesRootCA.ca
+48636   -rw-             1924  Aug 27 2024 09:38:03 +00:00  ISRGRootX1CrossSignDST.ca
+48635   -rw-             1338  Aug 27 2024 09:38:03 +00:00  DigiCertGlobalRootCA.ca
+48625   drwx             4096  Aug 27 2024 09:37:59 +00:00  .rommon_sync
+48617   drwx             4096  Aug 27 2024 09:37:58 +00:00  fp_cc_crash
+48616   drwx             4096  Aug 27 2024 09:37:54 +00:00  EDScisco
+72868   drwx             4096  Aug 27 2024 09:37:54 +00:00  tech_support
+97153   drwx             4096  Aug 27 2024 09:35:49 +00:00  .rollback_timer
+48615   -rw-             4908  Aug 27 2024 09:35:08 +00:00  packages.conf
+105255  -rw-             4908  Aug 27 2024 09:26:19 +00:00  cat9k_lite_iosxe.17.09.05.SPA.conf
+105259  -rw-         44267403  Aug 27 2024 09:26:19 +00:00  cat9k_lite-rpboot.17.09.05.SPA.pkg
+105258  -rw-         14876672  Aug 27 2024 09:25:19 +00:00  cat9k_lite-webui.17.09.05.SPA.pkg
+105257  -rw-          5980160  Aug 27 2024 09:25:19 +00:00  cat9k_lite-srdriver.17.09.05.SPA.pkg
+105256  -rw-        409178112  Aug 27 2024 09:25:19 +00:00  cat9k_lite-rpbase.17.09.05.SPA.pkg
+48597   -rw-        473832423  Aug 27 2024 09:21:55 +00:00  cat9k_lite_iosxe.17.09.05.SPA.bin
+48596   -rw-              676  Aug 22 2024 09:01:55 +00:00  vlan.dat
+48593   -rw-           109059  Jul 21 2023 11:24:58 +00:00  pnp-tech-discovery-summary
+48583   -rw-               35  Jul 21 2023 11:24:54 +00:00  pnp-tech-time
+48629   -rw-         40630385  Jul 10 2023 10:26:52 +00:00  cat9k_lite-rpboot.16.12.03.SPA.pkg
+48628   -rw-         10163216  Jul 10 2023 10:25:58 +00:00  cat9k_lite-webui.16.12.03.SPA.pkg
+48627   -rw-          4432916  Jul 10 2023 10:25:58 +00:00  cat9k_lite-srdriver.16.12.03.SPA.pkg
+48626   -rw-        391099412  Jul 10 2023 10:25:58 +00:00  cat9k_lite-rpbase.16.12.03.SPA.pkg
+48586   drwx             4096  May 16 2023 13:06:30 +00:00  .dbpersist
+40481   drwx             4096  May 16 2023 13:00:17 +00:00  Tbot
+48608   drwx             4096  May 16 2023 13:00:10 +00:00  sys_report
+48602   -rw-          5242880  May 16 2023 13:00:08 +00:00  ssd
+48611   -rwx                0  Dec 16 2020 17:25:21 +00:00  mode_event_log
+48604   drwx             4096  Dec 16 2020 17:25:21 +00:00  SHARED-IOX
+48601   -rw-               58  Jul 16 2019 14:26:27 +00:00  private-KS1
+48582   drwx             4096   Mar 2 2019 14:23:28 +00:00  core
+48588   drwx             4096   Mar 2 2019 14:23:08 +00:00  onep
+
+1956839424 bytes total (354836480 bytes free)
+End of File

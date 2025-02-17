@@ -1,0 +1,14 @@
+STUDENT_SW_2#sh env all
+sh env all
+FAN is OK
+TEMPERATURE is OK
+SW  PID                 Serial#     Status           Sys Pwr  PoE Pwr  Watts
+--  ------------------  ----------  ---------------  -------  -------  -----
+ 1  Built-in                                         Good
+
+SW  Status          RPS Name          RPS Serial#  RPS Port#
+--  -------------   ----------------  -----------  ---------
+1   Not Present     <>
+
+STUDENT_SW_2#
+End of File

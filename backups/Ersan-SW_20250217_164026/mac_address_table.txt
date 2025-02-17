@@ -1,0 +1,46 @@
+Ersan-SW#sh mac address-table
+          Mac Address Table
+-------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+ All    0100.0ccc.cccc    STATIC      CPU
+ All    0100.0ccc.cccd    STATIC      CPU
+ All    0180.c200.0000    STATIC      CPU
+ All    0180.c200.0001    STATIC      CPU
+ All    0180.c200.0002    STATIC      CPU
+ All    0180.c200.0003    STATIC      CPU
+ All    0180.c200.0004    STATIC      CPU
+ All    0180.c200.0005    STATIC      CPU
+ All    0180.c200.0006    STATIC      CPU
+ All    0180.c200.0007    STATIC      CPU
+ All    0180.c200.0008    STATIC      CPU
+ All    0180.c200.0009    STATIC      CPU
+ All    0180.c200.000a    STATIC      CPU
+ All    0180.c200.000b    STATIC      CPU
+ All    0180.c200.000c    STATIC      CPU
+ All    0180.c200.000d    STATIC      CPU
+ All    0180.c200.000e    STATIC      CPU
+ All    0180.c200.000f    STATIC      CPU
+ All    0180.c200.0010    STATIC      CPU
+ All    0180.c200.0021    STATIC      CPU
+ All    ffff.ffff.ffff    STATIC      CPU
+  71    000c.2935.227c    DYNAMIC     Gi1/0/1
+  71    000c.2952.ad91    DYNAMIC     Gi1/0/1
+  71    000c.2956.419a    DYNAMIC     Gi1/0/1
+  71    000c.295d.d225    DYNAMIC     Gi1/0/1
+  71    000c.2961.3300    DYNAMIC     Gi1/0/1
+  71    000c.298f.5f5b    DYNAMIC     Gi1/0/1
+  71    000c.2997.6ee7    DYNAMIC     Gi1/0/1
+  71    000c.29ab.4450    DYNAMIC     Gi1/0/1
+  71    000c.29dd.23bc    DYNAMIC     Gi1/0/1
+  71    000c.29e4.8d35    DYNAMIC     Gi1/0/1
+  71    0050.56ab.99b1    DYNAMIC     Gi1/0/1
+  71    0050.56bb.d624    DYNAMIC     Gi1/0/1
+  71    3462.8863.0fa7    DYNAMIC     Gi1/0/1
+  71    442b.03c7.d0d4    DYNAMIC     Gi1/0/1
+  71    64d8.14db.67e0    DYNAMIC     Gi1/0/1
+  71    6c8b.d3da.28e3    STATIC      Vl71 
+  71    d47f.3570.5548    DYNAMIC     Gi1/0/1
+Total Mac Addresses for this criterion: 38
+End of File

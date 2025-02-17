@@ -1,0 +1,30 @@
+STUDENT_SW_2#show vlan brief
+                   notconnect   1            auto   auto 10/100BaseTX
+Fa0/18                       notconnect   1            auto   auto 10/100BaseTX
+Fa0/19                       notconnect   1            auto   auto 10/100BaseTX
+Fa0/20                       notconnect   1            auto   auto 10/100BaseTX
+Fa0/21                       notconnect   1            auto   auto 10/100BaseTX
+Fa0/22                       notconnect   1            auto   auto 10/100BaseTX
+Fa0/23                       notconnect   1            auto   auto 10/100BaseTX
+Fa0/24                       notconnect   1            auto   auto 10/100BaseTX
+Gi0/1                        notconnect   1            auto   auto Not Present
+Gi0/2                        notconnect   1            auto   auto Not Present
+STUDENT_SW_2#sh int trunk
+
+STUDENT_SW_2#sh inv
+NAME: "1", DESCR: "WS-C3560-24PS"
+PID: WS-C3560-24PS-S   , VID: V06  , SN: FDO1115Y1P1
+
+
+STUDENT_SW_2#sh ip int br
+Interface              IP-Address      OK? Method Status                Protocol
+Vlan1                  unassigned      YES NVRAM  up                    down    
+FastEthernet0/1        unassigned      YES unset  down                  down    
+FastEthernet0/2        unassigned      YES unset  down                  down    
+FastEthernet0/3        unassigned      YES unset  down                  down    
+FastEthernet0/4        unassigned      YES unset  down                  down    
+FastEthernet0/5        unassigned      YES unset  down                  down    
+FastEthernet0/6        unassigned      YES unset  down                  down    
+FastEthernet0/7        unassigned      YES unset  down                  down    
+FastEthernet0/8        unassigned      YES uns
+End of File

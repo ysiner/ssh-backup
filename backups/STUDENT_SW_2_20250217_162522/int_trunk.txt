@@ -1,0 +1,26 @@
+STUDENT_SW_2#sh int trunk
+00:00  tuncay_k6++_2_3_sw3
+   32  -rwx        4983   Mar 1 1993 15:07:42 +00:00  tuncay_k7_1_6_sw3
+   33  -rwx        4678   Mar 1 1993 03:00:44 +00:00  tuncay_k7_1_5_sw3
+   34  -rwx        5122   Mar 1 1993 02:25:48 +00:00  tuncay_k8_2_4
+   35  -rwx        2969   Mar 2 1993 02:53:18 +00:00  tuncay_k6_end_sw3
+   36  -rwx        2485   Mar 1 1993 02:45:04 +00:00  tuncay_k6_2_7_sw3
+   37  -rwx        5774   Mar 1 1993 14:52:25 +00:00  tuncay_k8_2_8_rikitee
+   38  -rwx        2652   Mar 1 1993 01:15:04 +00:00  tuncay_k6_3_1_sw3
+   39  -rwx        1985   Mar 1 1993 00:05:23 +00:00  melih_K8_initial
+   40  -rwx        2842   Mar 1 1993 05:36:49 +00:00  tuncay_k7_4_7
+   41  -rwx        2524   Mar 1 1993 05:34:35 +00:00  tuncay_k6++_final_sw3
+   42  -rwx        4652   Mar 1 1993 04:26:18 +00:00  melih_K8_Section1.6_SONU
+   43  -rwx        2650   Mar 1 1993 03:33:35 +00:00  tuncay_k7_4_1
+   44  -rwx        4766   Mar 1 1993 01:40:29 +00:00  ahmet_k8_section_1son
+   45  -rwx        5823   Mar 1 1993 00:36:49 +00:00  tuncay_k8_3_1_17_10_13
+   46  -rwx        2313   Mar 1 1993 02:52:59 +00:00  tuncay_k6_2_1_2013_10_21
+   47  -rwx        6617   Mar 1 1993 05:31:31 +00:00  tuncay_k8_4_5_18_10_13
+   48  -rwx        3533   Mar 2 1993 10:07:55 +00:00  turgut-K7-initial
+   49  -rwx        5519   Mar 1 1993 00:45:56 +00:00  ahmet_k7_section1.5
+   50  -rwx        2720   Mar 1 1993 03:34:16 +00:00  tuncay_k6_4_1_2013_10_21
+   51  -rwx        7680   Mar 1 1993 05:01:04 +00:00  E_K8_Multicast_Sonu
+   52  -rwx        6355   Mar 2 1993 15:36:12 +00:00  burak_k7_s1_son
+   53  -rwx        5881   Mar 1 1993 01:24:18 +00:00  ahmet_k7_section1_son
+   54  -rwx        6108   Mar 1 1993 04:49:58 +00:00  a
+End of File

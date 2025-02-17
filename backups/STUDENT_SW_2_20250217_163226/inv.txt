@@ -1,0 +1,8 @@
+STUDENT_SW_2#sh inv
+sh inv
+NAME: "1", DESCR: "WS-C3560-24PS"
+PID: WS-C3560-24PS-S   , VID: V06  , SN: FDO1115Y1P1
+
+
+STUDENT_SW_2#
+End of File

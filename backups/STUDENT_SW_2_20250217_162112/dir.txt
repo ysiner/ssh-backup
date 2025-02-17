@@ -1,0 +1,29 @@
+STUDENT_SW_2#dir
+et  down                  down    
+FastEthernet0/9        unassigned      YES unset  down                  down    
+FastEthernet0/10       unassigned      YES unset  down                  down    
+FastEthernet0/11       unassigned      YES unset  down                  down    
+FastEthernet0/12       unassigned      YES unset  down                  down    
+FastEthernet0/13       unassigned      YES unset  down                  down    
+FastEthernet0/14       unassigned      YES unset  down                  down    
+FastEthernet0/15       unassigned      YES unset  down                  down    
+FastEthernet0/16       unassigned      YES unset  down                  down    
+FastEthernet0/17       unassigned      YES unset  down                  down    
+FastEthernet0/18       unassigned      YES unset  down                  down    
+FastEthernet0/19       unassigned      YES unset  down                  down    
+FastEthernet0/20       unassigned      YES unset  down                  down    
+FastEthernet0/21       unassigned      YES unset  down                  down    
+FastEthernet0/22       unassigned      YES unset  down                  down    
+FastEthernet0/23       unassigned      YES unset  down                  down    
+FastEthernet0/24       unassigned      YES unset  down                  down    
+GigabitEthernet0/1     unassigned      YES unset  down                  down    
+GigabitEthernet0/2     unassigned      YES unset  down                  down    
+STUDENT_SW_2#sh ip route
+Default gateway is not set
+
+Host               Gateway           Last Use    Total Uses  Interface
+ICMP redirect cache is empty
+STUDENT_SW_2#sh lldp neighbors
+% LLDP is not enabled
+STUDENT_SW_2#sh mac addres
+End of File

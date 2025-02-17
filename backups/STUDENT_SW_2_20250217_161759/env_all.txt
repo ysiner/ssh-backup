@@ -1,0 +1,9 @@
+STUDENT_SW_2#sh env all
+        
+STUDENT_SW_2#h env all
+help env all
+     ^
+% Invalid input detected at '^' marker.
+
+STUDENT_SW_2#
+End of File

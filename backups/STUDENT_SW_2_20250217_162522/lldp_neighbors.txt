@@ -1,0 +1,23 @@
+STUDENT_SW_2#sh lldp neighbors
+ 06:01:09 +00:00  MERIC_K7_2.4_COMPLETED
+  122  -rwx        5540   Mar 1 1993 06:08:08 +00:00  MERIC_K7_2.5_COMPLETED
+  123  -rwx        5540   Mar 1 1993 06:13:08 +00:00  MERIC_K7_2.6_COMPLETED
+  124  -rwx        5540   Mar 1 1993 06:30:52 +00:00  MERIC_K7_2.7_COMPLETED
+  125  -rwx        5540   Mar 1 1993 07:28:40 +00:00  MERIC_K7_2.9_COMPLETED
+  126  -rwx        5540   Mar 1 1993 07:36:11 +00:00  MERIC_K7_4.1_COMPLETED
+  127  -rwx        5540   Mar 1 1993 07:44:12 +00:00  MERIC_K7_4.4_COMPLETED_(ZBF_YOK)
+  128  -rwx        5710   Mar 1 1993 08:02:41 +00:00  MERIC_K7_4.6_COMPLETED_(ZBF_YOK)
+  129  -rwx        5710   Mar 1 1993 08:27:34 +00:00  MERIC_K7_5.1_COMPLETED_(ZBF_YOK)
+  130  -rwx        5710   Mar 1 1993 08:57:08 +00:00  MERIC_K7_5.2_COMPLETED_(ZBF_YOK)
+  131  -rwx        5450   Mar 1 1993 09:32:18 +00:00  BARIS_K7+_VRF_RACK19
+  132  -rwx        1997   Mar 1 1993 00:03:12 +00:00  running-config
+  133  -rwx        6732   Mar 1 1993 01:28:15 +00:00  MERIC_K7YARIM_KALAN
+  135  -rwx        2435   Mar 1 1993 05:00:20 +00:00  MERIC_K6_2.2_COMPLETED
+  136  -rwx        2435   Mar 1 1993 06:10:47 +00:00  MERIC_K6_2.6_COMPLETED
+  137  -rwx        5456   Mar 1 1993 08:31:36 +00:00  K8_Baris_Caliskan
+  138  -rwx        1997   Mar 1 1993 00:03:42 +00:00  K8_SW3_Rack19_Ebu_Initial_23042014
+  139  -rwx        
+*Mar  1 00:14:42.783: %SYS-4-CONFIG_RESOLVE_FAILURE: System config parse from (tftp://255.255.255.255/network-confg) failed
+*Mar  1 00:14:42.783: %SYS-4-CONFIG_RESOLVE_FAILURE: System config parse from (tftp://255.255.255.255/cisconet.cfg) failed
+*Mar  1 00:14:42.791: %SYS-4-CONFIG_RESOLVE_FAILURE: System config parse from (tftp://255.255.255.255/studen
+End of File

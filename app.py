@@ -50,7 +50,7 @@ def perform_backup():
                 logging.error(f"IP tarama hatası: {str(e)}")
                 return jsonify(response)
 
-            backup_directory = '/mnt/backup'
+            backup_directory = './backups'
             os.makedirs(backup_directory, exist_ok=True)
 
             try:
@@ -85,11 +85,13 @@ def perform_backup():
                 return jsonify(response)
 
             try:
-                zip_filepath = perform_console_backup(com_port, baudrate, username_console, password_console)
+                backup_directory = './backups'
+                os.makedirs(backup_directory, exist_ok=True)
+                zip_filepath = perform_console_backup(com_port, baudrate, username_console, password_console, backup_directory)
                 if zip_filepath:
                     response['success'] = True
                     zip_filename = os.path.basename(zip_filepath)
-                    session['download_link'] = url_for('download_file', filename=zip_filename)
+                    response['download_link'] = url_for('download_file', filename=zip_filename)
                 else:
                     response['error'] = "Konsol cihazına bağlantı kurarken veya yedekleme sürecinde hata oluştu."
             except Exception as e:
@@ -104,7 +106,11 @@ def perform_backup():
 
 @app.route('/download/<filename>')
 def download_file(filename):
-    return send_from_directory('/mnt/backup', filename, as_attachment=True)
+    backup_directory = './backups'
+    try:
+        return send_from_directory(backup_directory, filename, as_attachment=True)
+    except FileNotFoundError:
+        return "Dosya bulunamadı", 404
 
 @app.route('/device_code')
 def device_code():
@@ -151,7 +157,6 @@ def execute_device_code():
         response['output'] = f"Error: {str(e)}"
 
     return jsonify(response)
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
-    
-print("alp")

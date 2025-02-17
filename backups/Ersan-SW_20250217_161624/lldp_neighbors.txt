@@ -1,0 +1,3 @@
+Ersan-SW#sh lldp neighbors
+% LLDP is not enabled
+End of File

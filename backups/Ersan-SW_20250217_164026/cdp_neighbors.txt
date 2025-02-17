@@ -1,0 +1,11 @@
+Ersan-SW#sh cdp neighbors
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+Sistem_ODASI-2960x-ONDE.btegitim.local
+                 Gig 1/0/1         164             R S I  WS-C2960X Gig 1/0/39
+
+Total cdp entries displayed : 1
+End of File

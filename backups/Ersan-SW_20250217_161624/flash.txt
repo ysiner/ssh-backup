@@ -1,0 +1,262 @@
+Ersan-SW#sh flash: 
+-#- --length-- ---------date/time--------- path
+  2  391099412 Jul 10 2023 10:25:58.0000000000 +00:00 cat9k_lite-rpbase.16.12.03.SPA.pkg
+  3       4096 Sep 15 2024 08:20:55.0000000000 +00:00 .installer
+  4         14 Sep 15 2024 08:18:45.0000000000 +00:00 .installer/watchlist
+  5          5 Aug 27 2024 09:35:49.0000000000 +00:00 .installer/install_global_trans_lock
+  6         10 Aug 27 2024 09:35:49.0000000000 +00:00 .installer/install_state
+  7       4096 Aug 22 2024 11:18:30.0000000000 +00:00 .installer/rollback
+  8        112 Aug 27 2024 09:36:10.0000000000 +00:00 .installer/rollback/rollback_points.txt
+  9       4096 Aug 27 2024 09:35:49.0000000000 +00:00 .installer/rollback/rb_points
+ 10       4096 Aug 27 2024 09:36:10.0000000000 +00:00 .installer/rollback/rb_points/2
+ 11       4908 Aug 27 2024 09:35:49.0000000000 +00:00 .installer/rollback/rb_points/2/packages.conf
+ 12          6 Aug 27 2024 09:35:49.0000000000 +00:00 .installer/rollback/rb_points/2/bootdir
+ 13        648 Aug 27 2024 09:36:10.0000000000 +00:00 .installer/rollback/rb_points/2/pkginfo
+ 14         10 Aug 27 2024 09:36:10.0000000000 +00:00 .installer/rollback/rb_points/2/patch.sta
+ 15       4096 Jul 10 2023 10:31:21.0000000000 +00:00 .installer/rollback/rb_points/1
+ 16       4883 Jul 10 2023 10:31:00.0000000000 +00:00 .installer/rollback/rb_points/1/packages.conf
+ 17          6 Jul 10 2023 10:31:00.0000000000 +00:00 .installer/rollback/rb_points/1/bootdir
+ 18        623 Jul 10 2023 10:31:21.0000000000 +00:00 .installer/rollback/rb_points/1/pkginfo
+ 19         10 Jul 10 2023 10:31:21.0000000000 +00:00 .installer/rollback/rb_points/1/patch.sta
+ 20          0 Aug 27 2024 09:23:31.0000000000 +00:00 .installer/.install_add_pkg_list.prev.txt
+ 21        861 Aug 27 2024 09:26:23.0000000000 +00:00 .installer/install_add_oper.log
+ 22       3811 Sep 15 2024 08:17:44.0000000000 +00:00 bootloader_evt_handle.log
+ 23       4096 Mar 02 2019 14:23:28.0000000000 +00:00 core
+ 24       4096 Mar 02 2019 14:21:36.0000000000 +00:00 core/modules
+ 25          1 Feb 17 2025 11:26:55.0000000000 +00:00 core/.callhome
+ 26       4096 Aug 27 2024 09:42:02.0000000000 +00:00 .prst_sync
+ 27        331 Sep 15 2024 08:18:04.0000000000 +00:00 .prst_sync/log
+ 28         37 Sep 15 2024 08:19:12.0000000000 +00:00 .prst_sync/reload_history
+ 29       4096 Aug 27 2024 09:35:49.0000000000 +00:00 .rollback_timer
+ 30       4096 Aug 27 2024 09:37:54.0000000000 +00:00 tech_support
+ 31      21698 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/igmp-snooping.tcl
+ 32      19990 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/mld-snooping.tcl
+ 33      15828 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/multicast.tcl
+ 34       1365 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/platform-fabric-iid-ethernet.tcl
+ 35       2107 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/platform-fabric-iid-ipv4.tcl
+ 36       2109 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/platform-fabric-iid-ipv6.tcl
+ 37       2729 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/platform-fabric-vrf-ipv4.tcl
+ 38       2757 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/platform-fabric-vrf-ipv6.tcl
+ 39      53606 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/platform-fabric-vrf-source.tcl
+ 40      21811 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/platform-fabric.tcl
+ 41       1548 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/platform_evpn_vxlan.tcl
+ 42      26175 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/port.tcl
+ 43       3215 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/port_dump.tcl
+ 44       9197 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/port_utils.tcl
+ 45      16477 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/stack.tcl
+ 46       5069 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/stackwise-virtual.tcl
+ 47      38541 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/unicast.tcl
+ 48        336 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/utils.tcl
+ 49       1330 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/pkt-drop-stats-dump.tcl
+ 50      14047 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/pkt-drop-stats.tcl
+ 51       1496 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/tech-support-confidential.tcl
+ 52        685 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/tech-support-dump.tcl
+ 53      11696 Sep 15 2024 08:18:04.0000000000 +00:00 tech_support/phy.tcl
+ 54       4096 Sep 15 2024 08:18:04.0000000000 +00:00 dc_profile_dir
+ 55     296166 Sep 15 2024 08:18:04.0000000000 +00:00 dc_profile_dir/dc_default_profiles.txt
+ 56     296166 Aug 27 2024 09:41:09.0000000000 +00:00 dc_profile_dir/dc_default_profiles.txt.bkp
+ 57       2133 Sep 15 2024 08:18:09.0000000000 +00:00 boothelper.log
+ 58     137940 Sep 15 2024 08:18:09.0000000000 +00:00 memleak.tcl
+ 59         13 Mar 02 2019 14:21:45.0000000000 +00:00 NVRAM
+ 60       4096 May 16 2023 13:06:30.0000000000 +00:00 .dbpersist
+ 61       4096 Feb 05 2025 05:08:15.0000000000 +00:00 .dbpersist/DMI_STATE_DB
+ 62      18332 Feb 05 2025 05:08:15.0000000000 +00:00 .dbpersist/DMI_STATE_DB/DMI_STATE_DB
+ 63        171 Feb 05 2025 05:08:15.0000000000 +00:00 .dbpersist/DMI_STATE_DB/DMI_STATE_DB.meta
+ 64      34296 Feb 05 2025 05:08:15.0000000000 +00:00 .dbpersist/stats
+ 65       4096 May 16 2023 13:06:30.0000000000 +00:00 .dbpersist/history
+ 66      15116 Sep 15 2024 08:19:13.0000000000 +00:00 rdope_out.txt
+ 67       4096 Mar 02 2019 14:23:08.0000000000 +00:00 onep
+ 68       4096 Mar 02 2019 14:23:08.0000000000 +00:00 onep/apps-cli
+ 69         89 Sep 15 2024 08:19:11.0000000000 +00:00 rdope.log
+ 70    2097152 Feb 05 2025 05:08:15.0000000000 +00:00 nvram_config
+ 71    2097152 Feb 05 2025 05:08:15.0000000000 +00:00 nvram_config_bkup
+ 72         35 Jul 21 2023 11:24:54.0000000000 +00:00 pnp-tech-time
+ 73     109059 Jul 21 2023 11:24:58.0000000000 +00:00 pnp-tech-discovery-summary
+ 74       2133 Aug 27 2024 09:41:14.0000000000 +00:00 boothelper.log.old
+ 75        676 Aug 22 2024 09:01:55.0000000000 +00:00 vlan.dat
+ 76         58 Jul 16 2019 14:26:27.0000000000 +00:00 private-KS1
+ 77       4096 Aug 27 2024 09:37:54.0000000000 +00:00 EDScisco
+ 78          0 Sep 15 2024 08:19:13.0000000000 +00:00 dope_hist
+ 79       4096 Sep 15 2024 08:19:08.0000000000 +00:00 license_evlog
+ 80       3587 Jul 24 2019 14:43:57.0000000000 +00:00 license_evlog/SAEventRegular20190721_144401.log
+ 81       7751 Aug 27 2019 10:13:17.0000000000 +00:00 license_evlog/SAEventRegular20190725_101327.log
+ 82       4652 Sep 06 2019 18:36:12.0000000000 +00:00 license_evlog/SAEventRegular20190827_183615.log
+ 83       3260 Sep 08 2019 10:36:16.0000000000 +00:00 license_evlog/SAEventRegular20190907_103626.log
+ 84       3122 Sep 09 2019 09:20:31.0000000000 +00:00 license_evlog/SAEventRegular20190909_091900.log
+ 85       3170 Sep 17 2019 11:13:48.0000000000 +00:00 license_evlog/SAEventRegular20190917_111100.log
+ 86       3557 Sep 23 2019 08:47:13.0000000000 +00:00 license_evlog/SAEventRegular20190920_095412.log
+ 87       3335 Sep 23 2019 09:08:22.0000000000 +00:00 license_evlog/SAEventRegular20190923_085317.log
+ 88       3170 Sep 23 2019 09:20:47.0000000000 +00:00 license_evlog/SAEventRegular20190923_091426.log
+ 89       3233 Sep 23 2019 09:34:16.0000000000 +00:00 license_evlog/SAEventRegular20190923_092651.log
+ 90       3122 Sep 23 2019 09:41:22.0000000000 +00:00 license_evlog/SAEventRegular20190923_093951.log
+ 91       3122 Sep 23 2019 09:49:17.0000000000 +00:00 license_evlog/SAEventRegular20190923_094746.log
+ 92       3170 Sep 23 2019 09:56:27.0000000000 +00:00 license_evlog/SAEventRegular20190923_095456.log
+ 93      10151 Oct 11 2019 07:15:46.0000000000 +00:00 license_evlog/SAEventRegular20190923_100245.log
+ 94       3251 Oct 11 2019 16:00:18.0000000000 +00:00 license_evlog/SAEventRegular20191011_155847.log
+ 95      46804 Jul 16 2020 16:30:53.0000000000 +00:00 license_evlog/SAEventRegular20191011_163051.log
+ 96       2796 Jul 16 2020 18:31:28.0000000000 +00:00 license_evlog/SAEventRegular20200716_183128.log
+ 97       2994 Jul 17 2020 05:17:23.0000000000 +00:00 license_evlog/SAEventRegular20200717_044402.log
+ 98       3352 Jul 17 2020 05:26:02.0000000000 +00:00 license_evlog/SAEventRegular20200717_052300.log
+ 99       3251 Jul 17 2020 05:33:10.0000000000 +00:00 license_evlog/SAEventRegular20200717_053139.log
+100       3251 Aug 06 2020 09:16:24.0000000000 +00:00 license_evlog/SAEventRegular20200806_091453.log
+101       3989 Oct 16 2020 08:42:01.0000000000 +00:00 license_evlog/SAEventRegular20201014_133637.log
+102       3302 Oct 16 2020 09:02:26.0000000000 +00:00 license_evlog/SAEventRegular20201016_090006.log
+103       9181 Nov 21 2020 09:08:51.0000000000 +00:00 license_evlog/SAEventRegular20201016_090855.log
+104       4704 Dec 02 2020 18:41:19.0000000000 +00:00 license_evlog/SAEventRegular20201121_184130.log
+105       3004 Dec 02 2020 21:37:56.0000000000 +00:00 license_evlog/SAEventRegular20201202_213625.log
+106       3004 Dec 02 2020 23:29:10.0000000000 +00:00 license_evlog/SAEventRegular20201202_232739.log
+107       3004 Dec 03 2020 23:18:42.0000000000 +00:00 license_evlog/SAEventRegular20201203_231711.log
+108       6404 Dec 26 2020 21:26:49.0000000000 +00:00 license_evlog/SAEventRegular20201204_212658.log
+109       3004 Dec 26 2020 22:08:36.0000000000 +00:00 license_evlog/SAEventRegular20201226_220705.log
+110       4061 Jan 03 2021 22:03:10.0000000000 +00:00 license_evlog/SAEventRegular20201227_220321.log
+111       3233 Jan 06 2021 03:01:32.0000000000 +00:00 license_evlog/SAEventRegular20210105_030146.log
+112       3004 Jan 06 2021 21:57:38.0000000000 +00:00 license_evlog/SAEventRegular20210106_215607.log
+113       4265 Jan 14 2021 18:06:18.0000000000 +00:00 license_evlog/SAEventRegular20210107_050752.log
+114       8013 Feb 17 2021 10:50:46.0000000000 +00:00 license_evlog/SAEventRegular20210115_105053.log
+115       3233 Feb 18 2021 22:07:56.0000000000 +00:00 license_evlog/SAEventRegular20210217_220808.log
+116       5950 Mar 10 2021 21:58:28.0000000000 +00:00 license_evlog/SAEventRegular20210219_215838.log
+117       3004 Mar 10 2021 23:04:47.0000000000 +00:00 license_evlog/SAEventRegular20210310_230316.log
+118       6592 Mar 28 2021 22:54:54.0000000000 +00:00 license_evlog/SAEventRegular20210311_225504.log
+119       3743 Jun 18 2021 03:34:25.0000000000 +00:00 license_evlog/SAEventRegular20210617_033438.log
+120       3843 Jul 13 2021 12:35:45.0000000000 +00:00 license_evlog/SAEventRegular20210712_122203.log
+121       5220 Jul 28 2021 11:23:39.0000000000 +00:00 license_evlog/SAEventRegular20210713_124212.log
+122       3724 Jul 30 2021 13:34:12.0000000000 +00:00 license_evlog/SAEventRegular20210728_113014.log
+123       3052 Oct 28 2021 05:57:08.0000000000 +00:00 license_evlog/SAEventRegular20211028_051712.log
+124       4308 Nov 01 2021 06:03:43.0000000000 +00:00 license_evlog/SAEventRegular20211028_060411.log
+125       3156 Nov 02 2021 14:45:10.0000000000 +00:00 license_evlog/SAEventRegular20211102_142922.log
+126       3004 Jan 25 2023 10:59:25.0000000000 +00:00 license_evlog/SAEventRegular20230125_105754.log
+127       3055 Jan 27 2023 12:08:37.0000000000 +00:00 license_evlog/SAEventRegular20230127_115939.log
+128       3006 Jan 27 2023 12:16:43.0000000000 +00:00 license_evlog/SAEventRegular20230127_121512.log
+129       3767 Apr 06 2023 06:24:03.0000000000 +00:00 license_evlog/SAEventRegular20230403_062411.log
+130       3059 Apr 17 2023 06:55:05.0000000000 +00:00 license_evlog/SAEventRegular20230417_065334.log
+131       3059 Apr 17 2023 07:39:08.0000000000 +00:00 license_evlog/SAEventRegular20230417_073737.log
+132       2994 Apr 17 2023 07:49:31.0000000000 +00:00 license_evlog/SAEventRegular20230417_074900.log
+133       3046 Apr 17 2023 08:07:24.0000000000 +00:00 license_evlog/SAEventRegular20230417_075753.log
+134       3263 Apr 17 2023 09:26:35.0000000000 +00:00 license_evlog/SAEventRegular20230417_081343.log
+135       7593 May 15 2023 10:20:30.0000000000 +00:00 license_evlog/SAEventRegular20230417_102032.log
+136       3110 May 16 2023 12:04:07.0000000000 +00:00 license_evlog/SAEventRegular20230516_062110.log
+137       3110 May 16 2023 12:32:11.0000000000 +00:00 license_evlog/SAEventRegular20230516_121029.log
+138       3110 May 16 2023 12:54:16.0000000000 +00:00 license_evlog/SAEventRegular20230516_124043.log
+139       3656 May 16 2023 13:08:15.0000000000 +00:00 license_evlog/SAEventRegular20230516_130644.log
+140       3711 Jun 06 2023 05:51:52.0000000000 +00:00 license_evlog/SAEventRegular20230606_054919.log
+141       3809 Jun 06 2023 06:02:06.0000000000 +00:00 license_evlog/SAEventRegular20230606_055835.log
+142       3809 Jun 08 2023 07:11:25.0000000000 +00:00 license_evlog/SAEventRegular20230608_070754.log
+143       3158 Jul 10 2023 10:22:38.0000000000 +00:00 license_evlog/SAEventRegular20230710_101511.log
+144       3158 Jul 10 2023 10:36:56.0000000000 +00:00 license_evlog/SAEventRegular20230710_103401.log
+145       2942 Jul 10 2023 10:46:42.0000000000 +00:00 license_evlog/SAEventRegular20230710_104329.log
+146       3591 Jul 12 2023 06:15:26.0000000000 +00:00 license_evlog/SAEventRegular20230711_061533.log
+147       3059 Jul 17 2023 11:50:24.0000000000 +00:00 license_evlog/SAEventRegular20230717_110429.log
+148       3108 Jul 18 2023 06:14:03.0000000000 +00:00 license_evlog/SAEventRegular20230718_051824.log
+149       3006 Jul 18 2023 10:12:44.0000000000 +00:00 license_evlog/SAEventRegular20230718_101113.log
+150       3006 Jul 20 2023 11:35:56.0000000000 +00:00 license_evlog/SAEventRegular20230720_113425.log
+151       3054 Jul 20 2023 11:51:08.0000000000 +00:00 license_evlog/SAEventRegular20230720_114937.log
+152       2956 Jul 20 2023 11:55:28.0000000000 +00:00 license_evlog/SAEventRegular20230720_115357.log
+153       3007 Jul 21 2023 11:39:43.0000000000 +00:00 license_evlog/SAEventRegular20230721_112421.log
+154       3056 Jul 21 2023 13:19:37.0000000000 +00:00 license_evlog/SAEventRegular20230721_130848.log
+155       3566 Aug 22 2024 11:43:20.0000000000 +00:00 license_evlog/SAEventRegular20240822_085308.log
+156       3700 Aug 27 2024 09:22:34.0000000000 +00:00 license_evlog/SAEventRegular20240822_115348.log
+157       6446 Sep 14 2024 09:42:09.0000000000 +00:00 license_evlog/SAEventRegular20240827_094213.log
+158      26478 Feb 17 2025 08:19:55.0000000000 +00:00 license_evlog/SAEventRegular20240915_081907.log
+159  473832423 Aug 27 2024 09:21:55.0000000000 +00:00 cat9k_lite_iosxe.17.09.05.SPA.bin
+160       4096 Dec 16 2020 17:25:21.0000000000 +00:00 SHARED-IOX
+161       4096 May 16 2023 13:00:08.0000000000 +00:00 gs_script
+162       4096 May 16 2023 13:00:08.0000000000 +00:00 gs_script/sss
+163    5242880 May 16 2023 13:00:08.0000000000 +00:00 ssd
+164       4096 May 16 2023 13:00:08.0000000000 +00:00 ss_disc
+165       4096 May 16 2023 13:00:10.0000000000 +00:00 sys_report
+166       4096 May 16 2023 13:05:51.0000000000 +00:00 .USWAP
+167       4096 Sep 15 2024 08:23:45.0000000000 +00:00 .USWAP/rp
+168       4096 Sep 15 2024 08:21:13.0000000000 +00:00 .USWAP/rp/mmap_schema
+169         61 Sep 15 2024 08:21:13.0000000000 +00:00 .USWAP/rp/mmap_schema/ndb_schema_25070.tag
+170   20742144 Sep 15 2024 08:21:41.0000000000 +00:00 .USWAP/rp/mmap_schema/27184.ndb_schema_25070.uswap
+171       4096 Sep 15 2024 08:23:20.0000000000 +00:00 .USWAP/rp/pubd
+172    1044480 Sep 15 2024 08:21:42.0000000000 +00:00 .USWAP/rp/pubd/22437.ndb_schema_25070.cow.uswap
+173    2023424 Feb 05 2025 05:18:35.0000000000 +00:00 .USWAP/rp/pubd/22437.uswap
+174       4096 Sep 15 2024 08:23:20.0000000000 +00:00 .USWAP/rp/ndbmand
+175    1044480 Sep 15 2024 08:21:42.0000000000 +00:00 .USWAP/rp/ndbmand/22747.ndb_schema_25070.cow.uswap
+176    2314240 Jan 10 2025 10:49:30.0000000000 +00:00 .USWAP/rp/ndbmand/22747.uswap
+177       4096 Sep 15 2024 08:22:11.0000000000 +00:00 .USWAP/rp/sif_mgr
+178    7491584 Sep 15 2024 08:22:11.0000000000 +00:00 .USWAP/rp/sif_mgr/3287.uswap
+179       4096 Sep 15 2024 08:22:12.0000000000 +00:00 .USWAP/rp/stack_mgr
+180     716800 Feb 05 2025 05:08:13.0000000000 +00:00 .USWAP/rp/stack_mgr/3514.uswap
+181       4096 Sep 15 2024 08:22:16.0000000000 +00:00 .USWAP/rp/lman
+182     319488 Feb 05 2025 05:08:01.0000000000 +00:00 .USWAP/rp/lman/6401.uswap
+183       4096 Sep 15 2024 08:22:16.0000000000 +00:00 .USWAP/rp/keyman
+184     262144 Sep 15 2024 08:22:16.0000000000 +00:00 .USWAP/rp/keyman/6128.uswap
+185       4096 Sep 15 2024 08:22:20.0000000000 +00:00 .USWAP/rp/btman
+186     270336 Sep 15 2024 08:22:20.0000000000 +00:00 .USWAP/rp/btman/6592.uswap
+187       4096 Sep 15 2024 08:22:33.0000000000 +00:00 .USWAP/rp/cmand
+188    7966720 Feb 17 2025 11:36:36.0000000000 +00:00 .USWAP/rp/cmand/4244.uswap
+189       4096 Sep 15 2024 08:22:44.0000000000 +00:00 .USWAP/rp/install_mgr
+190     278528 Sep 15 2024 08:22:44.0000000000 +00:00 .USWAP/rp/install_mgr/9800.uswap
+191       4096 Sep 15 2024 08:22:45.0000000000 +00:00 .USWAP/rp/hman
+192     303104 Feb 17 2025 11:36:46.0000000000 +00:00 .USWAP/rp/hman/6722.uswap
+193       4096 Sep 15 2024 08:22:46.0000000000 +00:00 .USWAP/rp/psd
+194     618496 Sep 15 2024 08:22:46.0000000000 +00:00 .USWAP/rp/psd/14806.uswap
+195       4096 Sep 15 2024 08:22:50.0000000000 +00:00 .USWAP/rp/service_mgr
+196     278528 Sep 15 2024 08:22:50.0000000000 +00:00 .USWAP/rp/service_mgr/16334.uswap
+197       4096 Sep 15 2024 08:22:51.0000000000 +00:00 .USWAP/rp/repm
+198     352256 Sep 15 2024 08:22:51.0000000000 +00:00 .USWAP/rp/repm/16825.uswap
+199       4096 Sep 15 2024 08:22:52.0000000000 +00:00 .USWAP/rp/plogd
+200     258048 Sep 15 2024 08:22:52.0000000000 +00:00 .USWAP/rp/plogd/17218.uswap
+201       4096 Sep 15 2024 08:22:54.0000000000 +00:00 .USWAP/rp/linux_iosd-image
+202   24248320 Feb 17 2025 11:36:46.0000000000 +00:00 .USWAP/rp/linux_iosd-image/2989.uswap
+203       4096 Sep 15 2024 08:22:55.0000000000 +00:00 .USWAP/rp/tms
+204     266240 Sep 15 2024 08:22:55.0000000000 +00:00 .USWAP/rp/tms/17562.uswap
+205       4096 Sep 15 2024 08:22:57.0000000000 +00:00 .USWAP/rp/fman_rp
+206    1007616 Feb 17 2025 11:36:43.0000000000 +00:00 .USWAP/rp/fman_rp/18132.uswap
+207       4096 Sep 15 2024 08:22:57.0000000000 +00:00 .USWAP/rp/sessmgrd
+208    1556480 Nov 05 2024 06:23:26.0000000000 +00:00 .USWAP/rp/sessmgrd/15477.uswap
+209       4096 Sep 15 2024 08:22:57.0000000000 +00:00 .USWAP/rp/cmm
+210     262144 Sep 15 2024 08:22:57.0000000000 +00:00 .USWAP/rp/cmm/18637.uswap
+211       4096 Sep 15 2024 08:22:58.0000000000 +00:00 .USWAP/rp/dbm
+212    1966080 Feb 13 2025 10:04:22.0000000000 +00:00 .USWAP/rp/dbm/18374.uswap
+213       4096 Sep 15 2024 08:23:02.0000000000 +00:00 .USWAP/rp/cli_agent
+214    1249280 Feb 13 2025 10:04:22.0000000000 +00:00 .USWAP/rp/cli_agent/18774.uswap
+215       4096 Sep 15 2024 08:23:20.0000000000 +00:00 .USWAP/rp/dmiauthd
+216     774144 Sep 15 2024 08:23:20.0000000000 +00:00 .USWAP/rp/dmiauthd/22965.uswap
+217       4096 Sep 15 2024 08:23:21.0000000000 +00:00 .USWAP/rp/ncsshd_bp
+218     258048 Sep 15 2024 08:23:21.0000000000 +00:00 .USWAP/rp/ncsshd_bp/23161.uswap
+219       4096 Sep 15 2024 08:23:45.0000000000 +00:00 .USWAP/rp/smand
+220     892928 Feb 17 2025 11:36:46.0000000000 +00:00 .USWAP/rp/smand/15912.uswap
+221       4096 Sep 15 2024 08:22:49.0000000000 +00:00 .USWAP/fp
+222       4096 Sep 15 2024 08:22:10.0000000000 +00:00 .USWAP/fp/btman
+223     270336 Sep 15 2024 08:22:10.0000000000 +00:00 .USWAP/fp/btman/4493.uswap
+224       4096 Sep 15 2024 08:22:17.0000000000 +00:00 .USWAP/fp/fed
+225   10067968 Feb 17 2025 11:36:38.0000000000 +00:00 .USWAP/fp/fed/4194.uswap
+226       4096 Sep 15 2024 08:22:45.0000000000 +00:00 .USWAP/fp/service_mgr
+227     278528 Sep 15 2024 08:22:45.0000000000 +00:00 .USWAP/fp/service_mgr/14167.uswap
+228       4096 Sep 15 2024 08:22:49.0000000000 +00:00 .USWAP/fp/fman_fp_image
+229     888832 Feb 17 2025 11:36:21.0000000000 +00:00 .USWAP/fp/fman_fp_image/15004.uswap
+230       4096 Sep 15 2024 08:22:44.0000000000 +00:00 .USWAP/cc
+231       4096 Sep 15 2024 08:22:44.0000000000 +00:00 .USWAP/cc/iomd
+232     286720 Sep 15 2024 08:22:44.0000000000 +00:00 .USWAP/cc/iomd/14154.uswap
+233       4096 May 16 2023 13:00:15.0000000000 +00:00 .CRFT
+234       4096 May 16 2023 13:00:17.0000000000 +00:00 Tbot
+235     117906 Sep 15 2024 08:18:09.0000000000 +00:00 Tbot/HealthCheckDebugInfra.py
+236     265373 Sep 15 2024 08:18:09.0000000000 +00:00 Tbot/L3ParseOutputs.py
+237     365279 Sep 15 2024 08:18:09.0000000000 +00:00 Tbot/L3DebugInfraAPIs.py
+238     155706 Sep 15 2024 08:18:09.0000000000 +00:00 Tbot/L2DebugInfraAPIs.py
+239     164575 Sep 15 2024 08:18:09.0000000000 +00:00 Tbot/L2ParseOutputs.py
+240     155706 Sep 15 2024 08:18:09.0000000000 +00:00 Tbot/L2DebugInfraScript.py
+241       4096 Aug 27 2024 09:37:58.0000000000 +00:00 fp_cc_crash
+242   40630385 Jul 10 2023 10:26:52.0000000000 +00:00 cat9k_lite-rpboot.16.12.03.SPA.pkg
+243    4432916 Jul 10 2023 10:25:58.0000000000 +00:00 cat9k_lite-srdriver.16.12.03.SPA.pkg
+244   10163216 Jul 10 2023 10:25:58.0000000000 +00:00 cat9k_lite-webui.16.12.03.SPA.pkg
+245       4908 Aug 27 2024 09:35:08.0000000000 +00:00 packages.conf
+246  409178112 Aug 27 2024 09:25:19.0000000000 +00:00 cat9k_lite-rpbase.17.09.05.SPA.pkg
+247   44267403 Aug 27 2024 09:26:19.0000000000 +00:00 cat9k_lite-rpboot.17.09.05.SPA.pkg
+248    5980160 Aug 27 2024 09:25:19.0000000000 +00:00 cat9k_lite-srdriver.17.09.05.SPA.pkg
+249   14876672 Aug 27 2024 09:25:19.0000000000 +00:00 cat9k_lite-webui.17.09.05.SPA.pkg
+250       4908 Aug 27 2024 09:26:19.0000000000 +00:00 cat9k_lite_iosxe.17.09.05.SPA.conf
+251          0 Dec 16 2020 17:25:21.0000000000 +00:00 mode_event_log
+252       4096 Aug 27 2024 09:37:59.0000000000 +00:00 .rommon_sync
+253       4202 Sep 15 2024 08:19:25.0000000000 +00:00 .rommon_sync/env_var
+254       1338 Aug 27 2024 09:38:03.0000000000 +00:00 DigiCertGlobalRootCA.ca
+255       1924 Aug 27 2024 09:38:03.0000000000 +00:00 ISRGRootX1CrossSignDST.ca
+256       1606 Aug 27 2024 09:38:03.0000000000 +00:00 StarfieldServicesRootCA.ca
+257       1261 Aug 27 2024 09:38:03.0000000000 +00:00 Baltimore.ca
+258        372 Aug 27 2024 09:39:46.0000000000 +00:00 lateshutdown.log
+354836480 bytes available (1502601216 bytes used)
+
+End of File

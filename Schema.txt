@@ -1,0 +1,14 @@
+
+├── project2/
+│   ├── app.py            
+│   ├── ssh.py       
+│   └── console.py  
+|   ├── requirements.txt	
+|   ├── templates/
+│   	├── index.html        
+│  	 	├── device_code.html       
+│   	└── backup.html    
+|   ├── static/
+│   	├── script.js              
+│   	└── styles.css       
+         

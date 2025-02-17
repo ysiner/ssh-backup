@@ -1,0 +1,6 @@
+Ersan-SW#sh arp
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  192.168.71.1            0   442b.03c7.d0d4  ARPA   Vlan71
+Internet  192.168.71.61           -   6c8b.d3da.28e3  ARPA   Vlan71
+Internet  192.168.71.130         25   0050.56bb.d624  ARPA   Vlan71
+End of File

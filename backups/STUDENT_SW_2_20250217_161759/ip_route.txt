@@ -1,0 +1,12 @@
+STUDENT_SW_2#sh ip route
+    
+FastEthernet0/20       unassigned      YES unset  down                  down    
+FastEthernet0/21       unassigned      YES unset  down                  down    
+ --More--         
+STUDENT_SW_2#h ip route
+help ip route
+     ^
+% Invalid input detected at '^' marker.
+
+STUDENT_SW_2#
+End of File

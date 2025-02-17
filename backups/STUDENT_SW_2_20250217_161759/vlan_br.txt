@@ -1,0 +1,8 @@
+STUDENT_SW_2#show vlan brief
+        
+STUDENT_SW_2#how vlan brief
+              ^
+% Invalid input detected at '^' marker.
+
+STUDENT_SW_2#
+End of File
