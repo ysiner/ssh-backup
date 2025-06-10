@@ -11,8 +11,8 @@ def send_to_console(ser: serial.Serial, command: str, wait_time: float = 0.5):
     
     output = ""
     while True:
-        if ser.inWaiting() > 0:
-            part = ser.read(ser.inWaiting()).decode('utf-8')
+        if ser.in_waiting > 0:
+            part = ser.read(ser.in_waiting).decode('utf-8')
             if "--More--" in part:
                 ser.write(b" ")  # Send space to get more output
                 part = part.replace("--More--", "")
@@ -74,7 +74,10 @@ def perform_console_backup(com_port, baudrate, username=None, password=None, bac
                     command_output = send_to_console(connection, command, wait_time=2)
                     f.write(command_output)
                     f.write("\nEnd of File")
-                zip_file.write(filepath, os.path.basename(filepath))
+                # Use relative paths in the archive so each device's files are
+                # grouped in its own directory.
+                arcname = os.path.relpath(filepath, backup_directory)
+                zip_file.write(filepath, arcname)
 
     return zip_filepath if success else None
 
