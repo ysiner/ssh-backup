@@ -99,7 +99,10 @@ def perform_backup(ip_addresses, username, password, enable_password, backup_dir
                         f.write(command_output)
                         f.write("\nEnd of File")
 
-                    zip_file.write(filepath, os.path.basename(filepath))
+                    # Preserve directory structure in the archive so files from
+                    # different devices do not collide.
+                    arcname = os.path.relpath(filepath, backup_directory)
+                    zip_file.write(filepath, arcname)
 
                 connection.disconnect()
 
